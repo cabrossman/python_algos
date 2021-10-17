@@ -1,10 +1,10 @@
 """
 Given a set with distinct elements, find all of its distinct subsets.
 
-Input: [1, 3]
+Input: [1, 3, 3]
 Output: [], [1], [3], [1,3]
 
-Input: [1, 5, 3]
+Input: [1, 5, 3, 3]
 Output: [], [1], [5], [3], [1,5], [1,3], [5,3], [1,5,3]
 """
 

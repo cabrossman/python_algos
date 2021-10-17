@@ -18,11 +18,12 @@ Input: Fruit=['A', 'B', 'C', 'B', 'B', 'C']
 Output: 5
 Explanation: We can put 3 'B' in one basket and two 'C' in the other basket. 
 This can be done if we start with the second letter: ['B', 'C', 'B', 'B', 'C']
+
+O(N + N) ~= O(N)
 """
 
 def main(s,k=2):
-  window_start = 0
-  largest_sub_array = 0
+  window_start, largest_sub_array = 0, 0
   for window_end in range(len(s)):
     sub = s[window_start:window_end + 1]
     while len(sub) > k and window_start < window_end:

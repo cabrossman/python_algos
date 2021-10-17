@@ -27,30 +27,20 @@ def binary_search(arr, key):
     ASC_ORDER = True if arr[0] < arr[-1] else False
 
     while start <= end:
-
         mid = (end - start)//2 + start
-
         if arr[mid] == key:
             return mid
 
         if ASC_ORDER:
             if arr[mid] > key:
-                #search lower half
-                end = mid - 1
+                end = mid - 1 #search lower half
             else:
-                #search upper half
-                start = mid + 1
+                start = mid + 1 #search upper half
         else:
             if arr[mid] < key:
-                #search lower half
-                end = mid - 1
+                end = mid - 1 #search lower half
             else:
-                #search upper half
-                start = mid + 1
-
-
-
-
+                start = mid + 1 #search upper half
     return -1
 
 

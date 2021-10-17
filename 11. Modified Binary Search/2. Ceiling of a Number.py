@@ -24,21 +24,15 @@ O(log N)
 """
 
 def binary_search(arr, key):
-
     start, end = 0, len(arr) -1
-
     while start <= end:
-
         mid = (end - start)//2 + start
-
         if arr[mid] == key:
             return mid
         if key < arr[mid]:
-            #search lower half
-            end = mid - 1
+            end = mid - 1 #search lower half
         else:
-            #search upper half
-            start = mid + 1
+            start = mid + 1 #search upper half
 
     #swap for easier debuging
     start, end = end, start

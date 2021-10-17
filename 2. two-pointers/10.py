@@ -1,5 +1,5 @@
 """
-Given two strings containing backspaces (identified by the character ‘#’), check if the two strings are equal.
+Given two strings containing backspaces (identified by the character #), check if the two strings are equal.
 
 
 Input: str1="xy#z", str2="xzz#"

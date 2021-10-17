@@ -17,7 +17,7 @@ def has_path(root, _sum):
   if not root:
     return False
 
-  # terminal path
+  # terminal path - sum equal and leaf
   if (
         root.val == _sum 
         and not root.left 

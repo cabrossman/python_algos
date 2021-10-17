@@ -9,7 +9,7 @@ Output: [1, 5, 7, 8, 9]
 
 """
 
-from heapq import *
+from heapq import heappush, heappop
 
 
 class ListNode:
@@ -24,7 +24,6 @@ class ListNode:
 
 def merge_lists(lists):
     minHeap = []
-
     # put the root of each list in the min heap
     for root in lists:
         if root:

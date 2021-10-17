@@ -15,6 +15,8 @@ Explanation: Since the intervals [6,7] and [5,9] overlap, we merged them into on
 Intervals: [[1,4], [2,6], [3,5]]
 Output: [[1,6]]
 Explanation: Since all the given intervals overlap, we merged them into one.
+
+Sorting is O(N * log(N)), Merging O(N)
 """
 
 class Interval:
@@ -37,7 +39,6 @@ def merge(intervals):
           A = B
           continue
       if B.start > A.end: #no overlap
-          print('{}-{}'.format(A.start, A.end))
           merged.append(A)
           A = B
       else: #some overlap
@@ -45,7 +46,6 @@ def merge(intervals):
         max_end = max(B.end, A.end)
         A = Interval(min_start, max_end)
         merged.append(A)
-        print('{}-{}'.format(A.start, A.end))
   return merged
 
 def main():

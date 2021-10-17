@@ -2,6 +2,8 @@
 """
 Given the head of a Singly LinkedList, reverse the LinkedList. 
 Write a function to return the new head of the reversed LinkedList.
+
+
 """
 
 class Node:
@@ -18,14 +20,12 @@ class Node:
 
 
 def reverse(head):
-    current = head
-    previous = None
-    next = None
+    current, previous, next = head, None, None
     while current:
-        next = current.next #store next value
-        current.next = previous #store this for next
-        previous = current # previous > previous.next.
-        current = next #increment current
+        next = current.next #store next value of orig list
+        current.next = previous #make next value node point to last value
+        previous = current # set previous head to current node
+        current = next #increment current list
     return previous
 
 

@@ -17,11 +17,11 @@ Input: String="cbbebi", K=10
 Output: 6
 Explanation: The longest substring with no more than '10' distinct characters is "cbbebi".
 
+ O(N)
 """
 
 def main(s,k):
-  window_start = 0
-  largest_sub_array = 0
+  window_start, largest_sub_array = 0, 0
   for window_end in range(len(s)):
     substr = s[window_start:window_end]
     while len(set(substr)) == k and window_start < window_end:
