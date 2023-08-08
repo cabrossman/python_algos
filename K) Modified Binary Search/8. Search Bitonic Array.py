@@ -40,6 +40,7 @@ def search_bitonic_array(arr, key):
             if key < val:
                 start = mid + 1
             else:
+                
                 end = mid - 1
     return -1
 
@@ -47,4 +48,6 @@ assert search_bitonic_array([1, 3, 8, 4, 3], 4) == 3
 assert search_bitonic_array([3, 8, 3, 1], 8) == 1
 assert search_bitonic_array([1, 3, 8, 12], 12) == 3
 assert search_bitonic_array([10, 9, 8], 10) == 0
+assert search_bitonic_array([6,7,1,2,3,4,5], 2) == 3
+assert search_bitonic_array([10,11,12,13,1,2,3], 12) == 2
 print('all tests have passed!')

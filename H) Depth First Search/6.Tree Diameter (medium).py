@@ -14,27 +14,25 @@ class TreeNode:
     self.left = left
     self.right = right
 
+def diameter(node):
+    if node is None:
+        return 0, 0
+    H_left, D_left = diameter(node.left)
+    H_right, D_right = diameter(node.right)
+    potential_d = H_left + H_right + 1
 
-def height(node):   
-    if node is None: # Base Case : Tree is empty
-        return 0
-    left_h = height(node.left)
-    right_h = height(node.right)
-    return 1 + max(left_h, right_h)
+    height = max(H_left, H_right) + 1
+    diameter_ = max(potential_d, D_left, D_right)
+    return height, diameter_
 
-def diameter(root):   
-    if root is None: # Base Case when tree is empty
-        return 0
-    
-    left_max_h = height(root.left)
-    right_max_h = height(root.right)
-    potential_diam = left_max_h + right_max_h + 1
- 
-    ldiameter = diameter(root.left)
-    rdiameter = diameter(root.right)
-    # Return max of the following tree: subtree_diam of left or right / Height
-    return max(ldiameter, rdiameter, potential_diam)
-
+root = TreeNode(1)
+root.left = TreeNode(2)
+root.right = TreeNode(3)
+root.right.left = TreeNode(4)
+root.right.left.left = TreeNode(6)
+root.right.right = TreeNode(5)
+h, d = diameter(root)
+assert d == 5
 
 root = TreeNode(1)
 root.left = TreeNode(2)
@@ -42,12 +40,21 @@ root.right = TreeNode(3)
 root.left.left = TreeNode(4)
 root.right.left = TreeNode(5)
 root.right.right = TreeNode(6)
-assert diameter(root) == 5
+h, d = diameter(root)
+assert d == 5
+
+root = TreeNode(1)
+root.left = TreeNode(2)
+root.right = TreeNode(3)
+root.left.left = TreeNode(4)
+root.right.left = TreeNode(5)
+root.right.right = TreeNode(6)
 root.left.left = None
 root.right.left.left = TreeNode(7)
 root.right.left.right = TreeNode(8)
 root.right.right.left = TreeNode(9)
 root.right.left.right.left = TreeNode(10)
 root.right.right.left.left = TreeNode(11)
-assert diameter(root) == 7
-print('all tests have passed')
+h, d = diameter(root)
+assert d == 7
+print('tests have passed!')

@@ -9,6 +9,10 @@ Output: [], [1], [5], [3], [1,5], [1,3], [5,3], [1,5,3]
 """
 
 def find_subsets(nums):
+  #its like subsets - only when we find a duplicate
+  # we only append to the "last" values added to the subsets
+  ## IE if we added [1, 3] [3] to the subsets last round this round
+  ## we'd add [1, 3, 3] and [3, 3] - for the "3" dup
   nums.sort()
   subsets = [[]]
   for i in range(len(nums)):

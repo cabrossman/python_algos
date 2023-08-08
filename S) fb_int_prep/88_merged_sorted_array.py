@@ -18,7 +18,6 @@ Output: [1,2,2,3,5,6]
 Explanation: The arrays we are merging are [1,2,3] and [2,5,6].
 The result of the merge is [1,2,2,3,5,6] with the underlined elements coming from nums1.
 """
-from heapq import heappush, heappop
 def merge(nums1, m, nums2, n):
     # go backwards in array selecting the largest number in
     # first array. Create two pointers for valid numbers and

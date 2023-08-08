@@ -23,14 +23,17 @@ Output: "ZY"
 Constraaints
 1 <= columnNumber <= 2^31 - 1
 """
-
-def convertToTitle(idx):
-    column_string = ''
-    while idx > 0:
-        idx -= 1
-        column_string = chr((idx % 26) + ord('A')) + column_string
-        idx //= 26
-    return column_string
+from collections import deque
+def convertToTitle(n):
+    s = deque()
+    while n > 0:
+        n -= 1
+        rem = n % 26
+        letter_idx = ord('A') + rem
+        letter_chr = chr(letter_idx)
+        s.appendleft(letter_chr)
+        n = n // 26
+    return ''.join(s)
 
 
 assert convertToTitle(1) == 'A'

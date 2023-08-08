@@ -30,13 +30,10 @@ def search_min_diff_element(arr, key):
         else:
             return arr[mid]
 
-    # swap for debugging
-    end = start
-    #make sure less than length of array
-    end = end if end < len(arr) - 1 else len(arr) - 1
-    #make start one less
-    start = end - 1
-
+    
+    end = start # swap for debugging
+    end = end if end < len(arr) - 1 else len(arr) - 1 #CLIP it
+    start = end - 1 #make start one less
 
     start_diff = abs(key - arr[start])
     end_diff = abs(key - arr[end])

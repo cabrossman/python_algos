@@ -8,22 +8,19 @@ If no repeated substring is found, the function should return an empty set.
 """
 
 def subseq(s,k):
-    start = 0
-    input_set = set()
-    output_set = set()
-    for end in range(k, len(s), 1):
-        if s[start:end] in input_set:
-            output_set.add(s[start:end])
+    input_set, output_set = set(), set()
+    for end in range(k, len(s)):
+        substr = s[end - k :end]
+        if substr in input_set:
+            output_set.add(substr)
         else:
-            input_set.add(s[start:end])
-        start += 1
-    formatting_output = list(output_set)
-    formatting_output.sort()
-    return formatting_output
+            input_set.add(substr)
+    return output_set
 
-assert subseq("AAAAACCCCCAAAAACCCCCC" , 8) == ["AAAAACCC", "AAAACCCC", "AAACCCCC"]
-assert subseq("GGGGGGGGGGGGGGGGGGGGGGGGG" , 12) == ["GGGGGGGGGGGG"]
-outlst = ["CCCCCCCTTT", "CCCCCCTTTT", "CCCCCTTTTT", "CCCCTTTTTT", "TCCCCCCCTT", 
-          "TTCCCCCCCT", "TTTCCCCCCC", "TTTTCCCCCC", "TTTTTCCCCC"]
+
+assert subseq("AAAAACCCCCAAAAACCCCCC" , 8) == {"AAAAACCC", "AAAACCCC", "AAACCCCC"}
+assert subseq("GGGGGGGGGGGGGGGGGGGGGGGGG" , 12) == {"GGGGGGGGGGGG"}
+outlst = {"CCCCCCCTTT", "CCCCCCTTTT", "CCCCCTTTTT", "CCCCTTTTTT", "TCCCCCCCTT", 
+          "TTCCCCCCCT", "TTTCCCCCCC", "TTTTCCCCCC", "TTTTTCCCCC"}
 assert subseq("TTTTTCCCCCCCTTTTTTCCCCCCCTTTTTTT" , 10) == outlst
 print('all tests have passed!')

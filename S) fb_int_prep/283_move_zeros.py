@@ -18,6 +18,5 @@ def move0(arr):
         i += 1
     return arr
 
-
 assert move0([0,2,1,0,9,3]) == [2,1,9,3,0,0]
 print('all tests passed!')

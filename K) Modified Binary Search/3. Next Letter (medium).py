@@ -33,16 +33,12 @@ def binary_search(arr, key):
     start, end = 0, len(arr) -1
 
     while start <= end:
-
         mid = (end - start)//2 + start
-        if key < arr[mid]:
-            #search lower half
+        if key < arr[mid]: 
             end = mid - 1
-        else:
-            #search upper half
+        else: #keep is greater than equal to mid
             start = mid + 1
-    n = len(arr)
-    idx = start % n
+    idx = start % len(arr) #start > end after while loop. loops around array
     return arr[idx]
     
 

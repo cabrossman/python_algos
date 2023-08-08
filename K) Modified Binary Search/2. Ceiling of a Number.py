@@ -25,6 +25,13 @@ O(log N)
 
 def binary_search(arr, key):
     start, end = 0, len(arr) -1
+
+    #check key is within array
+    if not arr or key > arr[end]:
+        return -1
+    if key < arr[start]:
+        return start
+    
     while start <= end:
         mid = (end - start)//2 + start
         if arr[mid] == key:
@@ -33,16 +40,7 @@ def binary_search(arr, key):
             end = mid - 1 #search lower half
         else:
             start = mid + 1 #search upper half
-
-    #swap for easier debuging
-    start, end = end, start
-    end = end if end < len(arr) - 1 else len(arr) - 1
-    start = start if start >= 0 else 0
-    if key > arr[end]:
-        return -1
-    if key < arr[start]:
-        return start
-    return end
+    return start #start > end at this point - so ceiling
 
 
 assert binary_search([4, 6, 10], key = 6) == 1

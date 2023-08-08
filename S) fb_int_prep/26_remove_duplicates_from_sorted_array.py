@@ -24,8 +24,9 @@ def remove_dups(nums):
         if not_dup:
             nums[j] = nums[i]
             j += 1
-        return j
+    return j
 
 
 assert remove_dups([1,1,2]) == 2 #[1,2,_]
 assert remove_dups([0,0,1,1,1,2,2,3,3,4]) == 5 #[0,1,2,3,4,_,_,_,_,_]
+print('all tests passed!')

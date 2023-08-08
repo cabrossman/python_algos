@@ -10,23 +10,16 @@ Explanation: The first four elements after removing the duplicates will be [2, 3
 Input: [2, 2, 2, 11]
 Output: 2
 Explanation: The first two elements after removing the duplicates will be [2, 11].
-
 """
 
-
-def main(l):
-  length = len(l) - 1
-  nl = []
-  for i in range(len(l)):
-    if i < length:
-      left = l[i]
-      right = l[i + 1]
-      if left != right:
-        nl.append(left)
-  if nl[:-1] != right:
-    nl.append(right)
-      
-  return len(nl)
+def main(nums):
+    j = 1
+    for i in range(1, len(nums)):
+        not_dup = nums[i] != nums[i-1]
+        if not_dup:
+            nums[j] = nums[i]
+            j += 1
+    return j
 
 
 assert main([2, 3, 3, 3, 6, 9, 9]) == 4

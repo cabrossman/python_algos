@@ -28,12 +28,6 @@ Psuedo
 --->
 """
 def find_peak(nums):
-    if len(nums) < 3:
-        return -1
-    if nums[0] > nums[1]:
-            return 0
-    if nums[len(nums) - 1] > nums[len(nums) - 2]:
-        return len(nums) - 1
     left, right = 0, len(nums) - 1
     while left < right:
         mid = (left + right) // 2
@@ -42,6 +36,7 @@ def find_peak(nums):
         else:
             right = mid
     return left
+
 
 """Tests"""
 assert find_peak([1,2,3,1]) == 2

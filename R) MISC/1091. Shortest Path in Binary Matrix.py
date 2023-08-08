@@ -39,6 +39,7 @@ def shortest_path(grid):
             valid_move = 0 <= new_row < n and 0 <= new_col < n
             if valid_move and grid[new_row][new_col] == 0:
                 queue.append((new_row, new_col, path_len + 1))
+                grid[new_row][new_col] = 1 #check we dont revist
     return -1
 
 assert shortest_path([[0,1],[1,0]]) == 2

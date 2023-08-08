@@ -22,10 +22,10 @@ def max_prof(arr):
     left, right = 0, 1
     
     while right <= len(arr) - 1:
-        if arr[left] >= arr[right]:
+        if arr[left] >= arr[right]: #negative profile / new low
             left = right
             right += 1
-        else:
+        else: #positive profit
             curr_prof = arr[right] - arr[left]
             max_prof = max(max_prof,curr_prof)
             right += 1

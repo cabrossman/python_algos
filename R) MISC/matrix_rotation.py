@@ -1,5 +1,5 @@
 """
-Given a matrix, mat, if any element within the matrix is zero, set that row and column to zero.
+Rotate a matrix inplace like image rotation
 """
 
 def rotate_image(matrix):

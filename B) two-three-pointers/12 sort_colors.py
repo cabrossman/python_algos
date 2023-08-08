@@ -14,52 +14,6 @@ You are not supposed to use the library's sort function for this problem.
 You should do it in-place without making a copy of the array.
 """
 
-def sort_colors(arr):
-    """
-    Three pointers - left, mid, right
-    left = 0, mid = 1, right = len(arr) - 1
-    if right = 2 then move left
-    if left = 0 then move right
-    else move mid right
-    if mid == right then move left right and put mid = left + 1
-    do while left < right
-    """
-    left, right = 0, len(arr) - 1
-    if len(arr) <= 1:
-        return arr
-    if len(arr) == 2:
-        if arr[0] < arr[1]:
-            return arr
-        else:
-            return [arr[1],arr[0]]
-    while left < right:
-        while arr[left] == 0: left += 1
-        while arr[right] == 2: right -= 1
-        if left > right:
-            break
-        mid = left + 1
-        lv, mv, rv = arr[left], arr[mid], arr[right]
-        if mv == 0 or rv == 0:
-            if mv < rv:
-                arr[left], arr[mid] = arr[mid], arr[left]
-            else:
-                arr[left], arr[right] = arr[right], arr[left]
-            left += 1
-            mid += 1
-        elif lv == 2 or mv == 2:
-            if lv > mv:
-                arr[right], arr[left] = arr[left], arr[right]
-            else:
-                arr[right], arr[mid] = arr[mid], arr[right]
-            right -= 1
-        else: #
-            mid += 1
-            if mid >= right:
-                left += 1
-                mid = left + 1
-    return arr
-
-
 def sortColors(nums):
     low=mid=0
     high=len(nums)-1

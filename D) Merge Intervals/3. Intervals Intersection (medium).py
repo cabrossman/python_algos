@@ -42,10 +42,10 @@ def merge(intervalsA, intervalsB):
   merged = []
   a,b = 0,0
   while b < len(intervalsB) and a < len(intervalsA):
-    #no overlap
-    if intervalsA[a].end < intervalsB[b].start or intervalsB[b].end < intervalsA[a].start:
-      pass
-    else:
+    #overlaps Aend < Bstart or Bend < Astart
+    overlap_A = intervalsA[a].end < intervalsB[b].start
+    overlap_B = intervalsB[b].end < intervalsA[a].start
+    if not(overlap_A or overlap_B): #if no overlap
       start = max(intervalsA[a].start, intervalsB[b].start)
       end = min(intervalsA[a].end, intervalsB[b].end)
       merged.append(Interval([start,end])) #intersection is smallest between two

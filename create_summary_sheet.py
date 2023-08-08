@@ -53,8 +53,8 @@ def get_summary_for_row(row, current, total):
     considered the most important things to remember. Dont be verbose.  
     """
     try:
-        result = get_chat_completion(str(row), SYSTEM)
-        print(f"Row {current} of {total}: Successfully fetched summary for file {row['file']} in folder {row['folder']}")
+        result = get_chat_completion(row['code'], SYSTEM)
+        print(f"Row {current} of {total}:")
     except Exception as e:
         print(f"Row {current} of {total}: Error fetching summary for file {row['file']} in folder {row['folder']}: {e}")
         result = None  # or return an appropriate default value
@@ -68,8 +68,8 @@ def get_problem_for_row(row, current, total):
     find three integers in nums such that the sum is closest to target.```
     """
     try:
-        result = get_chat_completion(str(row), SYSTEM)
-        print(f"Row {current} of {total}: Successfully fetched summary for file {row['file']} in folder {row['folder']}")
+        result = get_chat_completion(row['code'], SYSTEM)
+        print(f"Row {current} of {total}")
     except Exception as e:
         print(f"Row {current} of {total}: Error fetching summary for file {row['file']} in folder {row['folder']}: {e}")
         result = None  # or return an appropriate default value

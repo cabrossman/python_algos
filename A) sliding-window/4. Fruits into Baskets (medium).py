@@ -22,18 +22,17 @@ This can be done if we start with the second letter: ['B', 'C', 'B', 'B', 'C']
 O(N + N) ~= O(N)
 """
 
-def main(s,k=2):
-  window_start, largest_sub_array = 0, 0
-  for window_end in range(len(s)):
-    sub = s[window_start:window_end + 1]
-    while len(sub) > k and window_start < window_end:
-      if len(set(sub)) == 2:
-        largest_sub_array = max(largest_sub_array, window_end - window_start + 1)
-        break
-      window_start = window_start + 1
-      sub = s[window_start:window_end + 1]
-  return largest_sub_array
-
+def main(fruit):
+  start, max_count, fruit_count = 0, 0, {}
+  for end in range(len(fruit)):
+      fruit_count[ fruit[end] ] = fruit_count.get( fruit[end] ,0) + 1
+      while len(fruit_count) > 2:
+          fruit_count[ fruit[start] ] -= 1
+          if fruit_count[ fruit[start] ] == 0:
+              del fruit_count[ fruit[start] ]
+          start += 1
+      max_count = max(max_count, end - start + 1)
+  return max_count
 
 assert main(['A', 'B', 'C', 'A', 'C']) == 3
 assert main(['A', 'B', 'C', 'B', 'B', 'C']) == 5

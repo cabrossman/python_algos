@@ -20,15 +20,19 @@ Explanation: The longest substring with no more than '10' distinct characters is
  O(N)
 """
 
-def main(s,k):
-  window_start, largest_sub_array = 0, 0
-  for window_end in range(len(s)):
-    substr = s[window_start:window_end]
-    while len(set(substr)) == k and window_start < window_end:
-      largest_sub_array = max(largest_sub_array, window_end - window_start + 1)
-      window_start = window_start + 1
-      substr = s[window_start:window_end]
-  return largest_sub_array if largest_sub_array != 0 else len(s)
+def main(s, k):
+    start, max_length, char_freq = 0, 0, {}
+    for end in range(len(s)):
+        end_char = s[end]
+        char_freq[end_char] = char_freq.get(end_char,0) + 1
+        while len(char_freq) > k: #distinct characters exceeds K!
+            start_char = s[start]
+            char_freq[start_char] -= 1
+            if char_freq[start_char] == 0:
+                del char_freq[start_char]
+            start += 1  # shrink the window
+        max_length = max(max_length, end - start + 1)
+    return max_length
 
 
 assert main('araaci',2) == 4

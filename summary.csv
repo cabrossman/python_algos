@@ -1,322 +1,640 @@
 folder,file,summary,problem
-B) two-three-pointers,5. Triplet Sum Close to Target.py,"Main algorithm: Triplet Sum Close to Target
-
-Most important step(s) to remember:
-- Sort the array in ascending order.
-- Iterate through the array, treating each number as the first number in a potential triplet.
-- Use two pointers, one starting from the next element and the other starting from the end of the array, to find the two numbers that would give the closest sum to the target when added to the current number.
-- Update the closest sum if a new closest sum is found.
-- Move the pointers towards each other based on the sum of the three numbers compared to the target sum.",The algorithm aims to find three integers in an array such that the sum of these integers is closest to a given target.
-B) two-three-pointers,8. Dutch National Flag.py,"The most important step of the main algorithm to remember is to use two or three pointers to partition the array into three sections representing the elements 0, 1, and 2.","The algorithm is attempting to solve the problem of sorting an array containing 0s, 1s, and 2s in-place using the Dutch National Flag algorithm."
-B) two-three-pointers,10.py,"The most important step of the main algorithm to remember from the code snippet is:
-
-- The algorithm should handle strings containing backspaces and output the final result after processing the backspaces.",The problem the algorithm is attempting to solve is finding two strings containing backspaces and comparing them to determine if they are equal.
-B) two-three-pointers,7. Subarrays with product less than target.py,"Most important steps:
-
-- Given an array with positive numbers, find the number of subarrays whose product is less than a given target.","The problem the algorithm is attempting to solve is finding subarrays within an array, where the product of the elements in each subarray is less than a given target."
-B) two-three-pointers,12 sort_colors.py,Sort an array of colors using two or three pointers.,The algorithm is trying to solve the problem of sorting an array of colors using either two or three pointers.
-B) two-three-pointers,11 palendrome minus one.py,The most important step of the main algorithm to remember is to delete one character from the given string to check if the resulting string is a palindrome.,"The algorithm is attempting to solve the problem of deleting characters from a string in order to create a palindrome, with the goal of finding the most important step of the main algorithm."
-B) two-three-pointers,9. Search Quadruplets.py,"The most important step of the main algorithm to remember in the code snippet is: 
-
-- Given an array of unsorted numbers and a target number, find all unique quadruplets in it, whose sum is equal to the target sum.",The algorithm is attempting to solve the problem of finding four integers in an unsorted array that sum to a given target. It uses a two-pointer approach to find the solution.
-B) two-three-pointers,334_increase_triplet_sequence.py,"The most important step to remember in the algorithm is:
-- The function `has_triplets(arr)` checks if the given array `arr` has a triplet sequence in increasing order.",The algorithm is attempting to solve the problem of finding a triplet sequence in an array such that the elements are in increasing order.
-B) two-three-pointers,6. Triplets with Smaller Sum.py,The most important step of the main algorithm is to iterate through the array with two or three pointers and count the number of triplets whose sum is smaller than the given target.,The algorithm is attempting to solve the problem of finding triplets in an unsorted array whose sum is smaller than a given target.
-B) two-three-pointers,2. remove duplicates easy.py,The most important step to remember from the main algorithm is to remove duplicates from the given array of sorted numbers.,The algorithm is attempting to solve the problem of removing duplicates from a sorted array of numbers. It mentions the approach for solving the problem and provides a summary of the most important step for the solution.
-B) two-three-pointers,121_best_time_to_buy_stock.py,"1. Understand the problem and its constraints.
-2. Identify the important variables and the problem's objective.
-3. Analyze the given code and determine its approach or algorithm.
-4. Implement any necessary changes or modifications to the code.
-5. Test the code with different inputs to ensure it works correctly.","The algorithm is attempting to solve the problem of finding the best time to buy and sell stock given an array of prices, by using a two-pointer approach. The code implements the algorithm with a summary of the problem and its constraints."
-B) two-three-pointers,3. squaring a sorted array easy.py,The most important step to remember is to create a new array that contains the square of each element from the given sorted array.,The algorithm is attempting to solve the problem of squaring a sorted array. It creates a new array where each element is the square of the corresponding element in the original array.
-B) two-three-pointers,4. Triplet Sum to Zero (medium).py,The most important step in this algorithm is to use three pointers to iterate through the array and find the triplets that sum to zero.,"Given an unsorted integer array, the algorithm aims to find triplets whose sum is closest to zero."
-B) two-three-pointers,1. pair of target sum easy.py,"The most important step in the main algorithm is:
-1. Using two-three pointers to find a pair of numbers in the sorted array that sum up to the target value.",The problem is likely asking to find a pair of numbers in a sorted array whose sum is equal to a given target. The code provided is probably a solution that uses a two-pointers approach.
-G) Breadth First Search,1. Binary Tree Level Traversal (easy).py,1. The main algorithm to remember is the Breadth First Search (BFS) for traversing a binary tree.,The algorithm is attempting to solve the problem of performing a breadth-first search on a binary tree and populating an array to represent the level traversal of the tree.
-G) Breadth First Search,6. Connect Level Order Siblings (medium).py,"The most important step of the main algorithm to remember is:
-
-1. Connect each level of the binary tree by setting the `node.next` pointer of each node to its next right node in the same level.","The algorithm is attempting to solve a problem related to the breadth first search (BFS) algorithm. Specifically, it is about connecting the level order siblings in a binary tree. The output provides a code snippet along with a summary of the problem."
-G) Breadth First Search,3. Zigzag Traversal (medium).py,The most important step of the main algorithm is to perform a breadth-first search on a given binary tree and populate an array with the zigzag traversal of the tree nodes.,The algorithm is solving the problem of populating an array with zigzag traversal of a binary tree.
-G) Breadth First Search,practice.py,The most important step in the main algorithm is to perform a Breadth First Search on a binary tree.,The algorithm is trying to populate an array using breadth-first search on a binary tree. It is an important step in the main algorithm.
-G) Breadth First Search,4. Level Averages in a Binary Tree (easy).py,The most important step to remember in the main algorithm is the Breadth First Search.,This problem is asking to implement Breadth First Search algorithm for finding the level averages in a binary tree.
-G) Breadth First Search,8.Right View of a Binary Tree (easy).py,The most important step of the main algorithm to remember is the implementation of Breadth First Search to traverse the binary tree.,"The algorithm is attempting to solve the problem of finding the right view of a binary tree, given the binary tree as an input."
-G) Breadth First Search,2. Reverse Level Order Traversal (easy).py,The most important step of the main algorithm to remember is the Breadth First Search (BFS) approach.,This problem is about performing breadth-first search in a binary tree. The algorithm populates an array in reverse level order.
-G) Breadth First Search,5. Minimum Depth Binary Tree (easy).py,The most important step in the main algorithm is finding the minimum depth of a binary tree.,The algorithm is attempting to solve the problem of finding the minimum depth of a binary tree.
-G) Breadth First Search,7. Connect All Level Order Siblings (medium).py,The most important step of the Breadth First Search algorithm for connecting all level order siblings in a binary tree is to traverse the tree using a queue and connect each node to its next sibling in the level order traversal.,The problem this algorithm is attempting to solve is connecting each node in a binary tree with its level order siblings.
-H) Depth First Search,7. Flatten Binary Tree to LL copy.py,"The most important steps of the main algorithm to remember are:
-
-1. The main algorithm is a Depth First Search (DFS).
-2. The algorithm ""Flatten Binary Tree to Linked List"" involves manipulating a binary tree to transform it into a singly linked list.",The problem the algorithm is attempting to solve is to flatten a binary tree into a linked list.
-H) Depth First Search,11. Flatten Tree to Array.py,"The most important step of the main algorithm to remember is:
-1. Implement the depth first search algorithm to flatten a tree into an array.",The algorithm is attempting to solve the problem of flattening a tree into an array using depth-first search (DFS).
-H) Depth First Search,8. max depth of tree.py,"The most important step of the main algorithm to remember is:
-
-- Implement the depth-first search algorithm to traverse the tree recursively or iteratively.",The problem the algorithm is attempting to solve is finding the maximum depth of a tree using the Depth First Search algorithm.
-H) Depth First Search,3. Sum of Path Numbers (medium).py,"The most important step of the BFS (Breadth First Search) algorithm is to visit each node in level order, starting from the root node.",The algorithm is attempting to solve the problem of finding the sum of path numbers in a binary tree. It involves performing a Depth First Search (DFS) on the binary tree.
-H) Depth First Search,12. array to BST.py,The most important step in the main algorithm to remember is the depth-first search.,"The algorithm is attempting to summarize the content of a file named ""12. array to BST.py"" by extracting the code and providing a summary of its most important step."
-H) Depth First Search,1. Binary Tree Path Sum (easy).py,"The most important step of the main algorithm to remember is:
-
-- Perform a depth-first search on the binary tree to find all possible paths from the root to the leaf nodes.",This algorithm is solving the problem of finding the sum of a path in a binary tree that is closest to a given target number.
-H) Depth First Search,9. tree diameter2.py,The most important step to remember in the main algorithm is the implementation of Depth First Search.,The algorithm is attempting to solve the problem of finding the depth first search implementation in a specific file within a given folder.
-H) Depth First Search,14. validate BST.py,"The most important step to remember in the Depth First Search algorithm is how to traverse through a tree or a graph in a depth-first manner. It involves visiting a node, then recursively visiting its adjacent nodes in a depth-first manner before backtracking. This ensures that all nodes are visited and processed in a systematic order.",This problem involves implementing Depth First Search on a binary search tree to validate if it is a valid BST.
-H) Depth First Search,13. lowest common ancestor.py,"- The most important step is to define the `TreeNode` class and its `__init__` method, as it is the foundation for the implementation of the algorithm.",The algorithm is attempting to solve the problem of finding the lowest common ancestor of two nodes in a binary tree.
-H) Depth First Search,4. Path With Given Sequence (medium).py,The most important step of the main algorithm to remember is the Depth First Search on the binary tree to find a path with a specific sequence.,The algorithm is attempting to solve a problem related to depth first search in a binary tree. It involves finding a path with a given sequence in the binary tree.
-H) Depth First Search,2. All Paths for a Sum (medium).py,"- Given a binary tree and a number S, find all paths in the tree that add up to S.","Given a binary tree and a number S, the algorithm is trying to find all paths in the tree that sum up to S."
-H) Depth First Search,5. Count Paths for a Sum (medium).py,"The most important step of the main algorithm to remember is:
-
-1. Perform a Depth First Search (DFS) traversal of the binary tree to find all possible paths that sum up to the given number S.",The algorithm is attempting to solve the problem of counting the number of paths in a binary tree that have a given sum.
-H) Depth First Search,6.Tree Diameter (medium).py,The most important step to remember in the main algorithm is to implement the Depth First Search (DFS) approach to calculate the diameter of the binary tree.,The problem the algorithm is attempting to solve is finding the length of the diameter of a binary tree. The summary also mentions an important step in solving the problem.
-Q) Excel Title Online,num_to_title.py,The most important step of the main algorithm to remember is to convert an integer column number to an Excel title.,The algorithm is attempting to solve a problem related to converting an integer column number into an Excel title.
-Q) Excel Title Online,title_to_num.py,"The most important step of the main algorithm to remember in the `title_to_num.py` code is:
-1. Given an integer `columnNumber`, return its corresponding Excel column title.",The algorithm is attempting to solve the problem of converting an Excel column title to its corresponding column number.
-L) Bitwise  XOR,practice.py,- The most important step of the main algorithm is to import the reduce function from the functools module.,The code described in the given folder and file is implementing an algorithm to find missing elements in an array using bitwise XOR. The algorithm uses the reduce function from the functools module for this purpose.
-L) Bitwise  XOR,0. test.py,"The most important step is to implement the `find_missing_number` function:
+B) two-three-pointers,5. Triplet Sum Close to Target.py,"- The most important step in the algorithm is the loop that iterates over the array and finds the closest triplet sum to the target number. This step is executed by the following code:
 
 ```python
-def find_missing_number(arr):
-    n = len(arr)
-    xor = 0
-
-    # XOR all the elements in the given array
-    for num in arr:
-        xor ^= num
-
-    # XOR all the elements from 1 to n+1
-    for i in range(1, n+2):
-        xor ^= i
-
-    return xor
+for i in range(len(arr) - 2):
+    left = i + 1
+    right = len(arr) - 1
+    while(left < right):
+        zsum = arr[i] + arr[left] + arr[right]
+        diff = t - zsum
+        if diff == 0:
+            return t
+        
+        if abs(diff) < abs(best_min) or (
+            abs(diff) == abs(best_min) and diff > best_min
+        ):
+            best_min = diff
+        
+        if diff > 0:
+            left = left + 1
+        else:
+            right = right - 1
 ```
 
-This function uses bitwise XOR to find the missing number in the given array. It iterates over all the elements in the array and XORs them, then XORs the result with all the numbers from 1 to `n+1`, where `n` is the length of the array. The final result will be the missing number.",The algorithm is attempting to find the missing number in an array by implementing the function `find_missing_number(arr)`.
-L) Bitwise  XOR,1. Single Number.py,The most important step of the main algorithm to remember in this case is the use of bitwise XOR to find the single number in the array.,The algorithm is attempting to solve the problem of finding a single number in a non-empty array of integers using the bitwise XOR operation.
-L) Bitwise  XOR,3. Base 10 (medium).py,The most important step in the algorithm is the use of the bitwise XOR operation.,"The algorithm is attempting to find the summary of a given file in a folder, with the specific file being ""3. Base 10 (medium).py""."
-L) Bitwise  XOR,2. Two Single Numbers (medium).py,The most important step of the main algorithm to remember is the use of the bitwise XOR operation.,The algorithm is attempting to find two single numbers in a non-empty array of numbers using bitwise XOR. It involves a main algorithm that includes an important step.
-N) K-Way Merge,1. Merge K Sorted Lists (medium).py,"1. K-Way Merge algorithm is used to merge K sorted lists efficiently.
-2. The algorithm takes an array of K sorted linked lists as input.
-3. The algorithm merges the linked lists using a priority queue or a min-heap to keep track of the minimum element at each step.
-4. The merged output is a single sorted linked list that contains all elements from the input linked lists.",The algorithm is attempting to solve the problem of merging K sorted linked lists using the K-Way Merge algorithm.
-N) K-Way Merge,2. Kth Smallest Number in M Sorted Lists (Medium).py,"1. Given M sorted arrays, the goal is to find the Kth smallest number.",The algorithm is attempting to solve the problem of finding the Kth smallest number in M sorted lists.
-N) K-Way Merge,3. Merge K Stored Arrays.py,"- Import the `heappush` and `heappop` functions from the `heapq` module.
-- Define the main `merge_k_stored_arrays` function.",The algorithm is attempting to solve the problem of merging k number of stored arrays using the `heappush` and `heappop` functions.
-K) Modified Binary Search,1. Order Agnostic Binary Search.py,The most important step to remember is to perform the Modified Binary Search on the given sorted array.,"The problem the algorithm is attempting to solve is implementing a modified binary search algorithm to find a target in a sorted array, regardless of whether the array is in ascending or descending order."
-K) Modified Binary Search,278_first_bad_version.py,The most important step to remember in the main algorithm is the modified binary search.,This algorithm is trying to solve the problem of finding the first bad version in a list of versions.
-K) Modified Binary Search,7. Bitonic Array Maximum (easy).py,The most important step of the main algorithm in this code is to find the maximum value in a given bitonic array.,The algorithm is attempting to solve the problem of finding the maximum value in a given Bitonic array using a modified binary search approach.
-K) Modified Binary Search,8. Proglem Challenge 1 (medium).py,The most important step of the main algorithm is to find if a given key is present in the Bitonic array.,The algorithm is attempting to solve a problem challenge related to finding a specific key in a Bitonic array using a modified binary search algorithm. The algorithm's summary also mentions that the main algorithm's most important step is comparing the middle element of the array with the target key.
-K) Modified Binary Search,9. Search in Pivoted Array.py,The most important step of the main algorithm to remember is the modified binary search.,The problem is to find three integers in an integer array such that their sum is closest to a given target.
-K) Modified Binary Search,2. Ceiling of a Number.py,The most important step of the main algorithm to remember is the modified binary search.,The algorithm is attempting to solve the problem of finding the ceiling of a given number in a sorted array.
-K) Modified Binary Search,4. Number Range (medium).py,The most important step of the main algorithm to remember is the modified binary search.,The algorithm is attempting to solve the problem of finding a number range in a sorted array of numbers.
-K) Modified Binary Search,162. Find Peak Element.py,The most important step of the main algorithm to remember is the modified binary search.,"The algorithm is attempting to solve the problem of finding a peak element in an integer array using a modified binary search algorithm. The summary of the algorithm states that the most important step of the main algorithm is missing, indicating that this might be a problem or a bug in the implementation."
-K) Modified Binary Search,6 Minimum Diff Element (medium).py,"The most important step of the main algorithm to remember is:
-- Implementing the Modified Binary Search algorithm to find the minimum difference element in a sorted array.",The algorithm is attempting to solve the problem of finding the minimum difference element in a sorted array using a modified binary search.
-K) Modified Binary Search,5. Search in a Sorted Infinite Array (medium).py,The most important step in the main algorithm is to perform a modified binary search on the sorted infinite array.,This algorithm is attempting to solve the problem of searching for a target element in a sorted infinite array. It uses a modified binary search algorithm to efficiently find the target element.
-K) Modified Binary Search,3. Next Letter (medium).py,The most important step of the algorithm is to apply modified binary search to find the next letter in the sorted array of lowercase letters.,"The algorithm is attempting to solve the problem of finding the next letter in an array of lowercase letters, while accounting for the possibility of wrapping around to the beginning of the array."
-C) fast & slow pointers,2. LinkedList find_cycle_start.py,"1) The most important step in the main algorithm is to use the fast and slow pointers technique to find the cycle in the linked list. This technique involves having two pointers, one moving at a faster pace than the other. By checking if the two pointers meet or not, we can determine if a cycle exists in the linked list.",The problem that the algorithm is attempting to solve is finding the start of a cycle in a singly linked list.
-C) fast & slow pointers,6. Rearrange a LinkedList (medium).py,The most important step of the main algorithm to remember is the use of fast and slow pointers to rearrange the linked list.,The algorithm in the given code solves the problem of rearranging a LinkedList by using the fast and slow pointers technique. The code also includes a summary of the algorithm and its key steps.
-C) fast & slow pointers,1. LinkedList Cycle (easy).py,"1. Use the ""fast & slow"" pointers technique to detect a cycle in a linked list.","Given a folder and a specific file name, the algorithm is attempting to find information about the file such as code, summary, and name based on the provided information."
-C) fast & slow pointers,4. Middle of the LinkedList (easy).py,"- The main algorithm used in the code is the ""fast & slow pointers"" technique.",The algorithm in the code is trying to find the middle node of a singly linked list by using the fast and slow pointer technique. The code provides a summary of the algorithm and the problem it solves.
-C) fast & slow pointers,3. Hapy Number.py,The most important step in the algorithm is to use the fast and slow pointers technique.,The problem the algorithm is attempting to solve is to determine if a given number is a happy number. It uses a fast and slow pointer approach to determine if the number is a happy number or not. The algorithm also includes a summary explaining the most important step in the algorithm.
-C) fast & slow pointers,3B. Hapy Number Faster.py,1. Using the fast and slow pointers technique is the most important step in the algorithm.,The algorithm is solving a problem related to finding a happy number using the fast and slow pointers technique. It provides code and a summary of the problem.
-C) fast & slow pointers,5. Palindrome LinkedList (medium).py,The most important step of the main algorithm to remember in this code is the use of fast and slow pointers to determine if a LinkedList is a palindrome.,The algorithm is attempting to solve the problem of determining if a given linked list is a palindrome.
-R) MISC,merge_sort.py,"The most important step to remember in the main algorithm is the implementation of the merge sort algorithm, which is defined by the function `merge_sort(arr)`.",The algorithm is attempting to solve the problem of merging sort on an integer array.
-R) MISC,670. Maximum Swap.py,The most important step to remember in this algorithm is the ability to swap two digits in the given number to maximize its value.,The algorithm is attempting to solve the problem of finding the maximum possible number that can be obtained by swapping two digits in a given number.
-R) MISC,stacks_adj_str.py,"The most important steps of the main algorithm to remember are:
+This loop finds the closest triplet sum to the target number by iterating over the array and using two pointers `left` and `right` to narrow down the search. The algorithm calculates the difference between the target and the current triplet sum and updates the `best_min` variable if the current difference is smaller and closer to zero than the previous best difference.","Given an array of unsorted numbers and a target number, find a triplet in the array whose sum is as close to the target number as possible, return the sum of the triplet. If there are more than one such triplet, return the sum of the triplet with the smallest sum."
+B) two-three-pointers,8. Dutch National Flag.py,"The most important step of the main algorithm to remember is to partition the array into three sections: one for 0s, one for 1s, and one for 2s. This can be done using the Dutch National Flag problem approach.","The algorithm is attempting to solve the Dutch National Flag problem, which involves sorting an array containing 0s, 1s, and 2s in-place without counting the occurrences of each number."
+B) two-three-pointers,10.py,"The most important step to remember in the main algorithm is:
 
-1. Define the function `remove_duplicates(string)` to remove duplicate characters from a given string.
-2. Create an empty stack.
-3. Iterate through each character in the string.
-4. If the stack is empty or the current character is different from the top of the stack, push the current character onto the stack.
-5. If the current character is the same as the top of the stack, pop the top of the stack.
-6. Finally, return the characters from the stack as a string.","The summary is attempting to provide a brief description of the algorithm implemented in the code file ""stacks_adj_str.py"" found in the ""MISC"" folder."
-R) MISC,49. Group Anograms.py,"The most important step to remember is probably the input format: 
-Input: strs = [""eat"",""tea"",""tan"",""ate"",""nat"",""bat""]",The code is solving the problem of grouping anagrams from a given list of strings. The code takes in a list of strings and groups the anagrams together. The summary provides additional information about the code implementation.
-R) MISC,stacks_calculator.py,"The most important step to remember is:
+1. Iterate through the strings from the end, checking for backspaces and removing the appropriate characters.
 
-1. The code for the calculator function, which takes an expression as input and performs calculations on it.",The algorithm is attempting to summarize information about a file called `stacks_calculator.py` in the `MISC` folder. It provides details such as the code snippet and a summary of the file's contents.
-R) MISC,1249. Minimum Remove to Make Valid Parentheses.py,The most important step to remember is removing the minimum number of parentheses to make the string valid.,The algorithm is trying to solve the problem of finding the minimum number of removals needed to make a string have valid parentheses. The algorithm also provides a summary and important steps for solving the problem.
-R) MISC,50_POW.py,"The most important step to remember in the main algorithm is to implement the `pow(x, n)` function, which calculates the power of a number `x` raised to the exponent `n`.","The algorithm is attempting to solve the problem of implementing the pow(x, n) function, which calculates x raised to the power of n."
-R) MISC,121_best_time_to_buy_stock.py,"1. The most important step in the algorithm is to clearly understand the problem and the input. In this case, the problem is finding the best time to buy and sell a stock given an array of prices. The input is an array of prices.","The algorithm in this file, `121_best_time_to_buy_stock.py`, aims to solve the problem of finding the best time to buy and sell stocks to maximize profit. It uses an array of prices and calculates the maximum possible profit that can be obtained."
-R) MISC,rotational_cipher.py,"The most important step of the main algorithm to remember is the implementation of the rotational cipher, which is defined in the `rotational_cipher.py` file.",The algorithm is solving the problem of implementing a rotational cipher function.
-R) MISC,matrix0.py,The most important step to remember is to analyze the given matrix and determine if any element within it is equal to 0.,"The code is defining a function called ""matrix0"" that takes in a matrix and performs operations on it. The summary suggests that it is important to analyze the matrix before performing any actions on it."
-R) MISC,1091. Shortest Path in Binary Matrix.py,The most important step in the main algorithm is calculating the shortest path in a binary matrix.,The algorithm is attempting to solve the problem of finding the shortest path in a binary matrix grid.
-R) MISC,71. Simplify Path.py,"- The file name is ""71. Simplify Path.py""
-- The code is a function that takes a string path as input and returns a simplified path.",The problem the algorithm is attempting to solve is simplifying a given absolute file path.
-R) MISC,matrix_rotation.py,"The most important step of the main algorithm to remember is:
-- Given a matrix, rotating the matrix elements by 90 degrees.",The problem the algorithm is attempting to solve is finding the most important step of the main algorithm in the matrix rotation code.
-R) MISC,backtracking.py,The most important step to remember is the function that performs the search for a specific word in the code.,"The problem is to find a specific word in a given code file. The user provides a folder path, file name, and code contents, and the algorithm searches for the specified word in the code. The code provided is an example of a specific implementation."
-R) MISC,13_roman_to_int.py,"The most important step of the main algorithm in the code is:
-- Converting Roman numerals to integers by assigning values to each symbol and performing the necessary calculations based on the given rules.",The algorithm is attempting to convert a Roman numeral to its corresponding integer value.
-J) Subsets,practice.py,"1. Import the necessary modules or libraries, such as `from collections import deque`.
-2. Define the main function or algorithm, such as `def find_subset(...)`.
-3. Use a deque data structure to efficiently process elements, if applicable.",The algorithm is attempting to solve the problem of finding a subset of integers in an array that have a sum closest to a given target value.
-J) Subsets,1. Subsets.py,"The most important step of the main algorithm to remember is to implement a function called ""subsets"" that takes a set with distinct elements as input and returns all possible subsets of the set.",This problem is attempting to solve the task of finding all subsets of a set with distinct elements.
-J) Subsets,3. Permutations.py,The most important step to remember is finding all the subsets of a given set of distinct numbers.,The algorithm is attempting to solve a problem related to finding subsets of a set of distinct numbers. The specific problem it is addressing is not provided in the given information.
-J) Subsets,2. Subset Dups.py,The most important step of the main algorithm to remember is to find subsets of a set with distinct elements.,The problem is to find subsets of a given set that may contain duplicate elements. The algorithm should return all the subsets.
-J) Subsets,4. String Permutations.py,"Most important step:
-1. Given a string, find all of its permutations.",The algorithm is attempting to find all permutations of a given string.
-O) Knapsack ,dijkstra.py,"- The most important step of the main algorithm to remember is the function `find_lowest_cost_node(costs, processed_nodes)` in the `dijkstra.py` file. This function is responsible for finding the node with the lowest cost from the `costs` dictionary.",The algorithm is attempting to solve the problem of finding the lowest cost node in a graph using the Dijkstra's algorithm.
-O) Knapsack ,01 Knapsack done Internal.py,The most important step of the main algorithm to remember in the code snippet provided is the implementation of the 0/1 Knapsack algorithm.,"The algorithm is attempting to solve the 0/1 Knapsack problem, which involves finding the maximum value that can be obtained by selecting a subset of items when there is a weight constraint."
-O) Knapsack ,3 Subset Sum (medium).py,The most important step of the algorithm is to define the set of positive numbers.,"The algorithm is attempting to solve the Subset Sum problem, where it aims to find a subset of positive numbers that adds up to a target sum."
-O) Knapsack ,practice.py,"The most important step of the main algorithm to remember is:
-- Given two integer arrays to represent weights and values of n items, and a knapsack capacity W, fill the knapsack with items to get the maximum total value in the knapsack, without exceeding the maximum weight capacity.",The algorithm solves the knapsack problem by finding the combination of items in two integer arrays that maximize the total weight without exceeding a given limit.
-O) Knapsack ,1A - Brute Force :  Knapsack (medium).py,"- The most important step is to understand the problem statement and the constraints of the knapsack problem.
-- Another important step is to implement the brute force algorithm to solve the knapsack problem.",The problem the algorithm is attempting to solve is the Knapsack problem using a brute force approach.
-O) Knapsack ,2 Equal Subset Sum Partition.py,"1. Given a set of positive numbers, find if it can be partitioned into two subsets with equal sum.",The algorithm is attempting to solve the problem of finding if it is possible to partition a set of positive numbers into two subsets with equal sums.
-O) Knapsack ,1B - Memoization :  Knapsack (medium).py,"1. Given two integer arrays to represent weights and values of n items, we need to find the maximum value that can be obtained by taking at most W weight in the knapsack.","The algorithm is attempting to solve the Knapsack problem using memoization. The problem involves selecting items with maximum total value, given a weight restriction."
-O) Knapsack ,1E SuperFast Algo - Single Array.py,"The most important step of the main algorithm to remember is the implementation of the ""SuperFast Algo - Single Array"" for solving the knapsack problem.",The algorithm is attempting to solve the knapsack problem using a single array and integers arrays to represent the weight and value of the items. The goal is to find the items with the maximum total value that can fit within a given capacity.
-O) Knapsack ,1D SuperFast Algo.py,"1. Read the two integer arrays representing weights and values.
-2. Initialize a 2D array for dynamic programming with rows representing the items and columns representing the maximum weight.
-3. Loop through each item and calculate the maximum value that can be achieved for each weight using the formula: 
-   - If the weight of the current item is less than or equal to the current weight, compare the value of including the item with the value of excluding the item at the current weight. Choose the maximum value.
-   - If the weight of the current item is greater than the current weight, the maximum value remains the same as the previous weight.
-4. Return the maximum value that can be achieved for the given weight.","The algorithm is attempting to solve the Knapsack problem by finding the most efficient way to fill a knapsack with a given weight capacity, using a dynamic programming approach."
-O) Knapsack ,1C - Dynamic :  Knapsack (medium).py,The most important step in the Knapsack algorithm is to calculate the maximum value that can be obtained using dynamic programming.,"The algorithm is attempting to solve the Knapsack problem, specifically the 1/0 knapsack problem with dynamic programming."
-A) sliding-window,5. Repeated DNA.py,"- The main algorithm for solving the problem involves using a sliding window approach. 
+Additional step to remember: 
+2. Compare the characters after removing the backspaces, and return False if there is a mismatch.",The algorithm is attempting to solve the problem of determining whether two strings are equal after applying backspaces. The backspaces are identified by the '#' character.
+B) two-three-pointers,7. Subarrays with product less than target.py,The most important step to remember in this algorithm is to sort the array in ascending order before finding the subarrays.,The algorithm is attempting to find all contiguous subarrays within an array whose product is less than a given target number.
+B) two-three-pointers,12 sort_colors.py,"- Initialize three pointers: `left`, `mid`, `right` to represent the positions of the current red, white, and blue objects respectively.
+- Use a while loop to iterate through the array while `mid` is less than or equal to `right`.
+- Inside the loop, handle the different cases:
+  - If the current object is red (0), swap it with the object at `left` index and increment `left` and `mid` pointers.
+  - If the current object is white (1), simply increment the `mid` pointer.
+  - If the current object is blue (2), swap it with the object at `right` index and decrement `right` pointer.
+- Continue the loop until `mid` is greater than `right`.
+- Return the modified array.","The algorithm is attempting to sort an array of colors in-place. The colors are represented by integers 0, 1, and 2, where 0 represents red, 1 represents white, and 2 represents blue. The goal is to move all the 0s to the left, 1s in the middle, and 2s to the right."
+B) two-three-pointers,11 palendrome minus one.py,The most important step to remember in the main algorithm is checking whether the original string or the string without one character is a palindrome.,"Given a non-empty string s, the algorithm checks if it is possible to make s a palindrome by deleting at most one character."
+B) two-three-pointers,9. Search Quadruplets.py,The most important step of the main algorithm to remember is the nested loop that iterates through the array to find all unique quadruplets. It iterates through the array twice using two nested loops and uses two pointers to traverse the array and find valid quadruplets.,"Given an array of unsorted numbers and a target number, the algorithm is trying to find all the unique quadruplets in the array that add up to the target number."
+B) two-three-pointers,334_increase_triplet_sequence.py,"The most important step to remember in the main algorithm is the while loop:
 
-- The code provided in the ""5. Repeated DNA.py"" file is important and should be thoroughly understood and implemented correctly.",The algorithm attempts to solve the problem of finding recurring DNA sequences in a given string `s`. It uses a sliding window approach to efficiently find the repeating sequences.
-A) sliding-window,7. sliding freq str.py,"1. The main algorithm is the function `compare_dicts()`.
-2. It takes two dictionaries as input (`dict1` and `dict2`).
-3. It compares the keys and values of the two dictionaries using the `set()` function.
-4. The output of the function is not specified in the given information.",The algorithm is attempting to solve the problem of comparing two dictionaries and determining whether they are equal or not.
-A) sliding-window,3. Longest Substring with maximum K Distinct Characters (medium).py,1. The main algorithm for finding the length of the longest substring with at most K distinct characters is called the sliding window technique.,The algorithm is attempting to solve the problem of finding the length of the longest substring with at most K distinct characters in a given string.
-A) sliding-window,4. Fruits into Baskets (medium).py,"The most important step of the main algorithm in this code is:
-- Implement a sliding window approach to find the maximum number of fruits that can be collected with the condition of only two types of fruits in the basket.","Given an array of characters, the algorithm needs to determine the length of the longest substring that contains at most two distinct characters."
-A) sliding-window,2. smallest_subset_given_sum_easy.py,"1. Given an array of positive numbers and a target sum, the main algorithm is the sliding window approach.
-2. The sliding window approach works by using two pointers that define a window in the array.
-3. The window is expanded by moving the right pointer outward, while the window is contracted by moving the left pointer inward.
-4. At each step, the current window's sum is checked against the target sum.
-5. If the current window's sum is equal to the target sum, the algorithm stops and returns the window's elements as the smallest subset that adds up to the target sum.
-6. If the current window's sum is less than the target sum, the right pointer is moved to the next element to expand the window.
-7. If the current window's sum is greater than the target sum, the left pointer is moved to the next element to contract the window.
-8. The algorithm continues until the target sum is found or until the right pointer reaches the end of the array.
-9. If the right pointer reaches the end of the array and the target sum is not found, the algorithm returns an empty list to signify that there is no subset that adds up to the target sum.",The algorithm is attempting to find the smallest subset of positive numbers in an array that has a sum equal to a target value.
-A) sliding-window,1. max_sub_array_of_size_k.py,The most important step of the sliding window algorithm to remember is to initialize the window with the first k elements of the array.,The algorithm is attempting to solve the problem of finding the maximum subarray sum of a given size in an array. It uses the sliding window technique to efficiently find the solution.
-A) sliding-window,13_roman_to_int.py,"- The main algorithm used is the sliding window approach.
-- The code provided is for a file named ""13_roman_to_int.py"", which likely contains the implementation of the algorithm.
-- The code handles the conversion of Roman numerals to integers, and there is a table with symbols and their corresponding values in the code.
-- The specific details of the algorithm may need to be referred to in the provided file.",The problem being solved by the algorithm is converting a Roman numeral string to its corresponding integer value. The algorithm utilizes the sliding window technique to calculate the integer value efficiently.
-A) sliding-window,6 Array String.py,"The most important steps to remember from the main algorithm are:
+```python
+while mid < right:
+    if leftV < midV and midV < rightV:
+        return True
+    if leftV > rightV: #it will never work so pull in
+        right -= 1
+        rightV = arr[right]
+    else:
+        mid += 1
+        midV = arr[mid]
+```
 
-1. Start with an array `nums` of integers.
-2. Set up a sliding window to iterate through the array.
-3. Perform operations or calculations on the elements within the sliding window.",The algorithm is solving a problem related to finding three integers in an integer array such that their sum is closest to a given target.
-F) In-place Reversal of a LinkedList,234_palindrome_linked_list.py,In-place Reversal of a LinkedList,The problem the algorithm is attempting to solve is in-place reversal of a linked list.
-F) In-place Reversal of a LinkedList,5. Reverse Alternating List.py,"- The most important step is to perform an in-place reversal of a LinkedList.
-- The given code provides a class Node with an __init__ method that initializes a Node object.","The algorithm is attempting to find the summary of a file named ""5. Reverse Alternating List.py"" in a folder called ""F) In-place Reversal of a LinkedList""."
-F) In-place Reversal of a LinkedList,4. Reverse alternating K-element Sub-list (medium).py,"The most important step of the main algorithm to remember in this case is:
+This loop checks if there is a triplet in the array by comparing the values of `leftV`, `midV`, and `rightV`. If a triplet is found, the function returns True. If not, the loop either moves the `right` index or the `mid` index closer to each other, depending on the values of `leftV` and `rightV`.",This algorithm is attempting to find if there exist three integers in the given array such that the middle integer is smaller than the left integer and larger than the right integer.
+B) two-three-pointers,6. Triplets with Smaller Sum.py,"The most important step in the main algorithm is the nested loop that iterates over the array with two pointers - `left` and `right`. Inside this loop, the function checks if the triplet's sum is smaller than the target and appends it to the `triplets` list.",The algorithm attempts to find all the triplets in an array where the sum of the triplet is less than a given target value.
+B) two-three-pointers,2. remove duplicates easy.py,"- Compare each element of the array with its adjacent element in a loop.
+- If the current element is not equal to its adjacent element, add it to a new list.
+- After the loop, check if the last element of the new list is equal to the last element of the original array. If not, add it to the new list as well.
+- Return the length of the new list.","Given an array of sorted numbers, the algorithm is attempting to remove all duplicates in-place and return the length of the subarray that has no duplicates."
+B) two-three-pointers,121_best_time_to_buy_stock.py,"The most important step to remember is:
 
-- Reverse alternating K-element Sub-list.",The algorithm is attempting to solve the problem of reversing alternating K-element sub-lists in a linked list.
-F) In-place Reversal of a LinkedList,3. Reverse every K-element Sub-list (medium).py,The most important step of the main algorithm is to reverse every K-element sub-list of the given linked list.,The problem that the algorithm is attempting to solve is to reverse every K-element sub-list in a LinkedList.
-F) In-place Reversal of a LinkedList,2. Reverse a sub linked list (medium).py,The most important step of the main algorithm to remember is the in-place reversal of a LinkedList.,The problem the algorithm is attempting to solve is to reverse a sub linked list given the head of the linked list.
-F) In-place Reversal of a LinkedList,1. Reverse Linked LIst (easy).py,"To remember the main algorithm for the in-place reversal of a LinkedList, here are the important steps:
+- Initialize two pointers, `left` and `right`, to track the buying and selling days respectively. Move the pointers to the right until `right` reaches the end of the array.
 
-1. Assign the current node as the head node of the LinkedList.
-2. Initialize three pointers: previous as None, current as the head node, and next as None.
-3. Traverse through the LinkedList:
-   - Assign the next pointer as the next of the current node.
-   - Set the next of the current node to the previous node.
-   - Assign the previous pointer as the current node.
-   - Assign the current node as the next node.
-4. Set the head of the LinkedList as the previous node.
+- At each step, compare the stock price at `left` and `right` pointers. If the price at `left` is greater than or equal to the price at `right`, update `left` to `right` and move `right` one step forward.
 
-By following these steps, you can perform the in-place reversal of a LinkedList.",The problem the algorithm is attempting to solve is to reverse a LinkedList in place.
-P) Topological Sort (Graph),4. Compilation Tasks.py,"The most important step of the main algorithm to remember is:
-1. Perform a topological sort on the given graph.",The algorithm is attempting to solve the problem of finding the topological sort of a graph.
-P) Topological Sort (Graph),2. Tasks Scheduling (medium).py,"The most important step of the main algorithm to remember for the task scheduling problem is:
-- Perform a topological sort on the graph.",The problem the algorithm is attempting to solve is tasks scheduling using topological sort in a graph.
-P) Topological Sort (Graph),practice.py,The most important step of the main algorithm to remember is the topological sort of the graph.,The algorithm is attempting to solve the problem of finding three integers in a given integer array such that their sum is closest to a target value.
-P) Topological Sort (Graph),3. Tasks Scheduling Order (medium).py,"- The most important step is to perform a topological sort on the given graph. 
-- This step is key to determining the order in which the tasks should be scheduled.",The algorithm is attempting to solve the problem of finding the tasks scheduling order using topological sort in a graph. It provides a code and a summary explaining the steps involved in the algorithm.
-P) Topological Sort (Graph),1. Topological Sort (medium).py,- Import the required module for topological sort.,The algorithm is attempting to solve the problem of performing a topological sort on a directed graph. It involves importing a module and executing the necessary code for topological sorting.
-E) Cycle Sort,4. Find the Duplicate Number (easy).py,"The most important step of the main algorithm to remember is:
+- If the price at `left` is less than the price at `right`, calculate the profit by subtracting the price at `left` from the price at `right`. Update the `max_prof` variable with the maximum profit seen so far.
 
-1. Use the Cycle Sort algorithm to sort the array.",The algorithm is attempting to solve the problem of finding a duplicate number in an unsorted array.
-E) Cycle Sort,5. Find All Duplicate Numbers.py,"- The algorithm being used is Cycle Sort.
-- The task is to find all duplicate numbers in an unsorted array.
-- The code provided contains the implementation of the algorithm.","The algorithm being used is Cycle Sort, which is used to find all duplicate numbers in an unsorted array."
-E) Cycle Sort,6. Find the Corrupt Pair (easy).py,"1. The most important step is to understand the problem statement and the requirements of the algorithm. In this case, the problem is to find a corrupt pair in an array.
+- Finally, return the value of `max_prof` as the maximum profit that can be achieved.","Given an array of stock prices on different days, the algorithm is trying to find the maximum profit that can be achieved by buying a stock on one day and selling it on a different day."
+B) two-three-pointers,3. squaring a sorted array easy.py,"The most important step to remember in this algorithm is to use two pointers, one pointing to the start of the array and the other pointing to the end of the array. The pointers are then used to compare the absolute values of the numbers, square them, and populate a new array in sorted order.",The algorithm is attempting to create a new array that contains the squares of all the numbers in the input array. The output array should be sorted in ascending order.
+B) two-three-pointers,4. Triplet Sum to Zero (medium).py,"The most important step of the algorithm is to use two pointers, one starting from the left and one from the right, and move them towards each other while adjusting the pointers according to the sum of the triplet. Additionally, it is important to skip the same element in the array to avoid duplicate triplets.",This algorithm takes an unsorted array of numbers and finds all unique triplets in it that add up to zero.
+B) two-three-pointers,1. pair of target sum easy.py,"The most important step of the main algorithm is the while loop that iterates while the `left` index is less than the `right` index:
 
-2. Another important step is to analyze the given code or information related to the problem. In this example, there is a code snippet and a brief explanation of the problem.","The algorithm is attempting to find a specific file in a folder, based on a given name and the file's summary."
-E) Cycle Sort,practice.py,"The most important step of the main algorithm to remember in the code snippet provided is:
+```python
+while left < right:
+    ztotal = l[left] + l[right]
+    if ztotal == target:
+        return [left, right]
+    elif ztotal > target:
+        right = right - 1
+    else:
+        left = left + 1
+```
 
-1. The implementation of the `cyclic_sort(nums)` function, which likely includes the main logic for the cycle sort algorithm.",The algorithm is attempting to solve the problem of implementing the cycle sort algorithm in the Python function `cyclic_sort()`.
-E) Cycle Sort,2. Find the Missing Number (easy).py,"To remember the main algorithm for finding the missing number in the given array using cycle sort, the most important step is:
+This step is where the algorithm compares the sum of the numbers at the `left` and `right` indices with the target sum. Based on the comparison, it either adjusts the indices or returns the indices of the pair that adds up to the target sum.",The algorithm attempts to find a pair of numbers in a given array that add up to a specified target sum. It returns the indices of the two numbers.
+G) Breadth First Search,1. Binary Tree Level Traversal (easy).py,"- The most important step is to initialize a queue with the root node and start a while loop to iterate until the queue is empty.
+- Inside the loop, get the level size (number of nodes in the current level) using the length of the queue.
+- Create an empty array to store the values of the nodes in the current level.
+- Use a for loop to iterate over the level size, popping nodes from the left of the queue.
+- Add the value of each popped node to the current level array.
+- If the popped node has left and/or right children, append them to the queue.
+- After the for loop, append the current level array to the result array.
+- Repeat the process until the queue is empty.
+- Finally, return the result array.",The algorithm is attempting to solve the problem of populating an array to represent the level-by-level traversal of a binary tree. It does this by using a breadth-first search approach with a queue and adding each node to the current level before inserting its children into the queue. The resulting array represents each level of the tree from left to right.
+G) Breadth First Search,6. Connect Level Order Siblings (medium).py,"The most important step to remember in the main algorithm is:
 
-1. Cycle through the array and place each element in its correct position correspondingly.",The problem the algorithm is attempting to solve is to find the missing number in an array.
-E) Cycle Sort,1. Cyclic Sort (easy).py,The main step of the Cyclic Sort algorithm is to iterate through the array and place each element in its correct position by swapping it with the element at that position.,The algorithm is attempting to solve the problem of performing cyclic sort on an array of objects.
-E) Cycle Sort,3. Find all Missing Numbers (easy).py,"1. The main algorithm being used is Cycle Sort.
-2. The specific task is to find all missing numbers in an unsorted array.",The algorithm is attempting to solve the problem of finding all missing numbers in an unsorted array using the Cycle Sort algorithm.
-D) Merge Intervals,3. Intervals Intersection (medium).py,The most important step in the main algorithm for solving the problem is finding the intersection between two lists of intervals.,The problem the algorithm is attempting to solve is finding the intersection of two lists of intervals.
-D) Merge Intervals,2 Insert Interval (medium).py,"The most important steps of the algorithm are:
+1. Iterate through each level of the binary tree using a queue.
 
-1. Given a list of non-overlapping intervals, insert a new interval into the list in a way that maintains the non-overlapping property.
+2. Connect each node with its level order successor by updating the 'next' pointer of the previous node with the current node.
 
-2. Merge any intervals that overlap with the inserted interval or with each other to create a final list of non-overlapping intervals.",The algorithm is attempting to solve the problem of merging intervals in a list. It specifically deals with non-overlapping intervals and provides a summary of the important steps of the algorithm.
-D) Merge Intervals,1B. Merge Intervals (medium) list.py,The most important step of the main algorithm is to merge all the overlapping intervals in the given list.,The algorithm is attempting to solve the problem of merging intervals in a list. The main algorithm requires sorting the intervals and merging overlapping intervals.
-D) Merge Intervals,1. Merge Intervals (medium).py,The most important step of the main algorithm is to merge all the overlapping intervals in the given list of intervals.,The algorithm is attempting to solve the problem of merging a list of intervals.
-D) Merge Intervals,4. conflicting appointments (medium).py,"The most important step in the main algorithm to remember is:
-- Merge the intervals in the given array to eliminate any conflicting appointments.","Given a folder structure with files and folders, the algorithm is attempting to find the name and summary of a specific file."
-S) fb_int_prep,528. Random Pick with Weight.py,The most important step of the main algorithm is to implement the function `pickIndex()` which uses a weighted random selection algorithm to select an index from the given array based on the weights assigned to each index.,The problem the algorithm is attempting to solve is implementing a random pick algorithm with weights.
-S) fb_int_prep,1762_buildings_with_ocean_view.py,"- The code is stored in the file ""1762_buildings_with_ocean_view.py""
-- The code implements a solution for a problem related to n buildings in a line and finding the ocean view",The problem this algorithm is attempting to solve is finding the number of buildings that have an ocean view given an array of buildings of different heights.
-S) fb_int_prep,278_first_bad_version.py,The most important step of the main algorithm to remember is to find the first bad version from the given list of bad versions.,This algorithm is attempting to solve the problem of finding the first occurrence of a bad version in a list of versions.
-S) fb_int_prep,28. Find the Index of the First Occurrence in a String.py,The most important step in the main algorithm to remember is finding the index of the first occurrence of a specific character or substring in a given string.,The algorithm is attempting to find the index of the first occurrence of a given string (needle) within another string (haystack). It also provides a summary of the algorithm.
-S) fb_int_prep,670. Maximum Swap.py,The most important step to remember is the algorithm to find the maximum swap for a given integer. This algorithm involves identifying the two digits in the number that can be swapped to create the maximum possible number.,The problem the algorithm is attempting to solve is finding the maximum possible number that can be obtained by swapping two digits in a given integer.
-S) fb_int_prep,680 valid pal remove one.py,"- The name of the folder is ""fb_int_prep"".
-- The name of the file is ""680 valid pal remove one.py"".
-- The main algorithm is represented by the code block provided.
-- The input value is ""s = ""aba"""".
-- The expected output is ""true"".","The given problem is to find the summary of a file in the ""fb_int_prep"" folder, which is named ""680 valid pal remove one.py""."
-S) fb_int_prep,334_increase_triplet_sequence.py,The most important step to remember in the main algorithm is the implementation of the `has_triplets` function.,The code in the file `334_increase_triplet_sequence.py` is attempting to find whether there exists a triplet in an array where the elements are in increasing order. The summary provides additional information on how to approach the problem. 
-S) fb_int_prep,234_palindrome_linked_list.py,The most important step to remember in this algorithm is the implementation of the `isPalindrome` function.,The problem the algorithm is attempting to solve is finding the closest sum to the target by adding three integers from an integer array.
-S) fb_int_prep,49. Group Anograms.py,The most important step to remember in the algorithm is to group the given strings into anagrams.,The algorithm is attempting to solve the problem of grouping anagrams in a given list of strings. The summary of the code provides information about the process and steps involved in solving the problem.
-S) fb_int_prep,283_move_zeros.py,The most important step to remember in this algorithm is the process of moving zeros in an array.,The algorithm is attempting to solve the problem of moving zeros in an integer array. The summary states that the most important step in the algorithm is to remember how to move the zeros efficiently.
-S) fb_int_prep,1249. Minimum Remove to Make Valid Parentheses.py,"The most important step of the main algorithm to remember is:
-- Remove the minimum number of parentheses to make the string valid.",The algorithm is attempting to solve the problem of finding the minimum number of removals needed to make a string valid parentheses.
-S) fb_int_prep,1570. Dot Product of Two Sparse Vectors.py,"The most important step in the main algorithm to remember is: 
+3. If the current node has a left child, add it to the queue.
 
-- The input should be two lists (`nums1` and `nums2`) representing sparse vectors.",The algorithm is solving the problem of finding the dot product of two sparse vectors.
-S) fb_int_prep,50_POW.py,"The most important step in the main algorithm to remember is implementing the pow(x, n) function.","The algorithm is attempting to implement the power function pow(x, n) which calculates x raised to the power of n."
-S) fb_int_prep,121_best_time_to_buy_stock.py,"- This is the file name and location of the code file: `121_best_time_to_buy_stock.py`
-- The code is about finding the best time to buy and sell stocks given an array of prices.
-- It is important to remember the purpose of the code: finding the best time to buy and sell stocks.",The problem the algorithm is attempting to solve is to find the best time to buy and sell a stock given an array of prices.
-S) fb_int_prep,88_merged_sorted_array.py,The most important step of the main algorithm to remember is likely the step where the two integer arrays `nums1` and `nums2` are merged and sorted.,The algorithm is attempting to solve the problem of finding three integers in an integer array whose sum is closest to a given target.
-S) fb_int_prep,75_sort_colors.py,The most important step of the algorithm is to sort the colors in the given array.,"The algorithm is attempting to solve the problem of sorting an array of objects with three colors (red, white, and blue) in linear time complexity."
-S) fb_int_prep,236. Lowest Common Ancestor of a Binary Tree.py,The most important step of the main algorithm to remember is finding the lowest common ancestor of a binary tree.,The algorithm is attempting to find the lowest common ancestor of a binary tree.
-S) fb_int_prep,215_klargest_elem.py,"The most important step of the main algorithm to remember is:
-- Given an integer array and a number k, find the k largest elements in the array.",The algorithm in the given file (215_klargest_elem.py) is attempting to solve the problem of finding the k largest elements in an array.
-S) fb_int_prep,523. Continuous Subarray Sum.py,"- The input is a list of integers `nums` and a target integer `k`.
-- The goal is to find if there is a continuous subarray of `nums` that sums up to `k`.
-- The algorithm does not require the subarray to be contiguous in the original array.
-- The most important step to remember is the core algorithm for solving this problem, which likely involves iterating through the array and updating the running sum.","Given a list of integers `nums` and an integer `k`, the algorithm aims to find a continuous subarray of `nums` where the sum of the subarray is equal to `k`."
-S) fb_int_prep,1091. Shortest Path in Binary Matrix.py,The most important step of the main algorithm to remember is to find the shortest path in a binary matrix.,This algorithm is attempting to solve the problem of finding the shortest path in a binary matrix.
-S) fb_int_prep,78. Subsets.py,"- The input is a list of numbers (`nums = [1,2,3]`).
-- The expected output is a list of all possible subsets of `nums` (`[[], [1], [2], [3], [1, 2], [1, 3], [2, 3], [1, 2, 3]]`).",The problem the algorithm is attempting to solve is finding all the subsets of a given input list of numbers.
-S) fb_int_prep,162. Find Peak Element.py,The most important step in this algorithm is finding the peak element in the given array.,The algorithm is attempting to find the peak element in an integer array. The summary states that the most important step in the algorithm is finding a peak element in a subarray.
-S) fb_int_prep,26_remove_duplicates_from_sorted_array.py,"The most important step of the main algorithm to remember is ""remove duplicates from a sorted array.""",The algorithm is attempting to solve the problem of removing duplicates from a sorted array.
-S) fb_int_prep,339. nested weighted sum.py,"The main algorithm is not provided in the given information. It only shows the name of a folder and a file, along with some code in the file. Please provide the main algorithm or specific steps of it in order for me to highlight the most important step(s) to remember.","The problem the algorithm is attempting to solve is finding the nested weighted sum of a given nested list of integers. However, it appears that the algorithm is missing the main part of the code."
-S) fb_int_prep,102_Binary_Tree_Level_Order_Traversal.py,"The most important step of the algorithm to remember is:
+4. If the current node has a right child, add it to the queue.
 
-1. Given a tree, perform a level order traversal to visit each node in the tree.",The algorithm is attempting to solve the problem of finding the level order traversal of a binary tree.
-S) fb_int_prep,71. Simplify Path.py,The most important step in the main algorithm to remember is: Simplifying the given path.,"The algorithm is attempting to solve the problem of simplifying a given file path string, which is an absolute path."
-S) fb_int_prep,206_reverse_linked_list.py,"The most important step to remember in this algorithm is:
+5. Repeat steps 2-4 until all nodes in the tree have been processed.
 
-1. Reverse the linked list.",The algorithm is attempting to solve a problem of reversing a linked list.
-S) fb_int_prep,13_roman_to_int.py,"- The main algorithm in the code is converting a Roman numeral to an integer.
-- The most important step is to define the symbol-value mapping for Roman numerals, which is provided in the code.",The code is attempting to solve a problem of converting Roman numerals to integers.
-I) Two Heaps,1. Find the Median of a Number Stream (medium).py,- The most important step is to design a class to calculate the median of a number stream using Two Heaps algorithm.,The algorithm is attempting to solve the problem of finding the median of a number stream.
-I) Two Heaps,practice.py,The most important step of the main algorithm to remember is the use of two heaps to maintain the smaller and larger halves of the data set. This allows for efficient tracking of the median.,The problem the algorithm is attempting to solve is to design a class that can calculate the median of a data stream.
-M) Top K,8. K closest numbers (medium).py,"1. Given a sorted number array and two integer values k and x, we have to find the k closest numbers to x in the array.",This algorithm is attempting to solve the problem of finding the k closest numbers to a given target in a sorted number array.
-M) Top K,1. Top K numbers (easy).py,"1. Given an unsorted array of numbers, find the top K numbers in the array.","Given a folder structure containing files and code, the algorithm is attempting to provide a summary of a specific file. In this case, it is summarizing the file ""Top K numbers (easy).py""."
-M) Top K,practice.py,The most important step in the main algorithm is to import the `heappush` and `heappop` functions from the `heapq` module.,"The problem the algorithm is attempting to solve is finding the top K items in a folder, given a list of files within the folder."
-M) Top K,2. Kth Smallest Number (easy).py,The most important step is to implement a solution to find the Kth smallest number in an unsorted array of numbers.,The algorithm is trying to solve the problem of finding the Kth smallest number in an unsorted array.
-M) Top K,6. Frequency Sort (medium).py,"The most important steps of the main algorithm to remember are:
-1. Sort the string based on the decreasing order of character frequency.
-2. If two characters have the same frequency, sort them based on their lexicographical order.",The algorithm is attempting to solve the problem of sorting a given string based on the decreasing frequency of its characters. The output provides some information about the main algorithm and its most important steps.
-M) Top K,10 Sum of Elements (medium).py,The most important step to remember is to find the sum of all numbers in the given array.,The algorithm is attempting to solve the problem of finding the sum of all numbers in an array and providing a summary of the most important step in solving the problem.
-M) Top K,5. Frequent Numbers (medium).py,The most important step of the main algorithm to remember is to find the top K frequent numbers in an unsorted array.,"The algorithm is attempting to solve a problem where given an unsorted array of numbers, it finds the most frequent numbers in the array."
-M) Top K,7. Kth Largest Number in a Stream.py,- The algorithm is for finding the Kth largest number in a stream efficiently.,The algorithm is attempting to solve the problem of finding the Kth largest number efficiently in a stream of numbers.
-M) Top K,9. Max Distinct Elements (medium).py,- The most important step in the main algorithm is to find the maximum number of distinct elements in the given array within the given constraint of K.,"Given an array of numbers and a number K, the algorithm finds the maximum number of distinct elements after removing exactly K elements from the array."
-M) Top K,4. Connect Ropes (easy).py,1. Read the problem statement and understand the requirements.,The algorithm is attempting to find the top K most important files in a folder based on a given scoring system.
-M) Top K,3. Kth closest point to origin (easy).py,"- Given an array of points in a 2D plane,
-- Find the Kth closest point to the origin.",The algorithm is attempting to solve the problem of finding the kth closest point to the origin in a given array of points in a 2D plane.
+6. Finally, print the level order traversal using the 'next' pointer.",This algorithm is trying to connect each node in a binary tree with its level order successor. The last node of each level should be pointing to a null node.
+G) Breadth First Search,3. Zigzag Traversal (medium).py,"The most important step of the main algorithm to remember is:
+
+- Use a queue to perform a level order traversal of the binary tree.
+- Use a boolean SWITCH variable to alternate between appending nodes from left to right and from right to left in each level.","The algorithm aims to perform a zigzag level order traversal of a binary tree. 
+It populates an array representing the traversal, with values alternating from left to right and right to left for each level."
+G) Breadth First Search,practice.py,The most important step is the iteration through the current level of nodes in the tree. This involves popping nodes from the left of the deque and appending their children to the deque. This step is crucial for traversing the tree level by level.,"Given a binary tree, the algorithm is attempting to solve the problem of populating an array to represent its level-by-level traversal. It should populate the values of all nodes of each level from left to right in separate sub-arrays."
+G) Breadth First Search,4. Level Averages in a Binary Tree (easy).py,"The most important step to remember is:
+
+1. Traverse the tree in a level order. Keep track of the running total and the number of nodes in each level. Calculate the average by dividing the running total by the level size and append it to the result array.",The algorithm is trying to solve the problem of finding the average of each level in a binary tree. It does this by traversing the tree using a queue to keep track of the nodes at each level and a running total to calculate the average. The averages are then stored in an array and returned as the result.
+G) Breadth First Search,8.Right View of a Binary Tree (easy).py,The most important step in the main algorithm is to iterate through each level of the tree using a queue and append the rightmost node of each level to the result array.,"```
+This algorithm solves the problem of finding the right view of a binary tree. 
+The right view of a binary tree is the set of nodes visible when the tree is seen from the right side.
+```"
+G) Breadth First Search,2. Reverse Level Order Traversal (easy).py,"The most important step to remember in the main algorithm is to use a queue to perform a level order traversal of the binary tree. This is achieved by initially enqueuing the root node, then dequeueing nodes from the queue and processing them while inserting their children into the queue.","The algorithm is attempting to solve the problem of traversing a binary tree in reverse level order. It populates an array to represent the traversal, where each sub-array represents a level and the lowest level comes first."
+G) Breadth First Search,5. Minimum Depth Binary Tree (easy).py,"The most important step of the main algorithm is to traverse the tree level by level using a queue, where each level is represented by a separate iteration of the while loop.","Given a binary tree, the algorithm is trying to find the minimum depth of the tree, which is defined as the number of nodes along the shortest path from the root node to the nearest leaf node."
+G) Breadth First Search,7. Connect All Level Order Siblings (medium).py,"The most important step in the main algorithm to remember is:
+- Traverse each level of the binary tree and connect each node to its level order successor by using the `next` pointer.","Given a binary tree, the algorithm aims to connect each node with its level order successor. Specifically, the last node of each level should point to the first node of the next level."
+H) Depth First Search,7. Flatten Binary Tree to LL copy.py,"The most important step to remember in the algorithm is the iterative process of manipulating the nodes to flatten the binary tree. This is done by checking if a node has a left subtree, then copying the right subtree to the rightmost node of the left subtree, replacing the right subtree with the left subtree, and setting the left subtree to None. The process repeats until all nodes have been flattened.",The algorithm is attempting to flatten a binary tree into a linked list in-place. It modifies the tree structure by rearranging the nodes so that the tree's left subtree is empty and the right subtree contains all the nodes in the original tree in the same order.
+H) Depth First Search,11. Flatten Tree to Array.py,"The most important step of the algorithm is the recursive process of flattening the binary tree. Specifically, these lines:
+```
+flatten(root.left, data)
+flatten(root.right, data)
+```
+These lines recursively traverse the left and right subtrees of the current node, appending the values to the `data` list in the correct order.",This algorithm is attempting to flatten a binary tree into a list by appending the values of each node in a pre-order traversal.
+H) Depth First Search,8. max depth of tree.py,"The most important step of the main algorithm to remember is:
+
+1. Recursively calculate the maximum depth of the left and right subtrees by calling the `max_depth` function on each subtree.
+
+2. Return the maximum depth of either the left or right subtree, plus one, to account for the current node.
+
+In summary, the most important step is to recursively calculate the maximum depth of a node's subtrees and return the maximum depth plus one.","The algorithm is trying to find the maximum depth of a binary tree, which is the longest path from the root to any leaf node."
+H) Depth First Search,3. Sum of Path Numbers (medium).py,"The most important step of the main algorithm to remember is to recursively traverse the binary tree, keeping track of the current path and adding the current node value to the path. When a leaf node is reached, convert the path to an integer and add it to a list of paths.","Given a binary tree where each node represents a digit value (0-9), the algorithm aims to find the total sum of all the numbers represented by all root-to-leaf paths."
+H) Depth First Search,12. array to BST.py,"The main algorithm in this code is the `sortedArrayToBST` function, which converts a sorted array into a balanced binary search tree. The most important step to remember is:
+
+1. Divide the input array into two halves and select the middle element as the root of the tree.
+- This step is crucial because it ensures that the resulting binary search tree will be balanced.
+
+Additionally, the `printTree` function is used to print the binary tree level by level. The important step in this function is:
+
+1. Use a queue to perform a level order traversal of the tree and print the values of each level.
+- This step ensures that the tree is printed in a level order format.",This code defines a binary search tree (BST) data structure and converts a sorted array of integers into a balanced BST. It then prints the levels of the BST.
+H) Depth First Search,1. Binary Tree Path Sum (easy).py,"The most important step of the main algorithm to remember is:
+- Start from the root and recursively traverse the left and right sub-trees, subtracting the current node value from the target sum. Return True if the sum becomes 0 and you reach a leaf node. Otherwise, continue the recursive calls.
+Note: The base cases of the algorithm are also important to remember, i.e., returning False for an empty tree and returning True if the current node value is equal to the target sum and it is a leaf node.","The algorithm is attempting to find if there is a path from the root of a binary tree to a leaf node, such that the sum of all the node values in that path equals a given target value."
+H) Depth First Search,9. tree diameter2.py,"The most important step in the `depth_and_diameter` algorithm is calculating the diameter of the tree. This is done by finding the maximum of three values: `left_diameter`, `right_diameter`, and `left_depth + right_depth`. This determines the longest path between any two nodes in the tree, which represents the diameter of the tree.","This algorithm finds the diameter of a binary tree, where the diameter is defined as the longest path between any two nodes in the tree. It uses a recursive approach to calculate the depth and diameter of each subtree, and then computes the current depth and diameter of the overall tree based on the results from the subtrees. Finally, it returns the depth and diameter of the root node."
+H) Depth First Search,14. validate BST.py,"The most important step is the recursive function `isValidBST()`. It checks whether a given binary tree is a valid binary search tree. The function checks if the current node satisfies the ordering condition, and then recursively checks the left and right subtrees. If any condition fails, the function returns `False`. If all conditions pass, the function returns `True`.",The algorithm is attempting to check if a given binary tree is a valid binary search tree (BST).
+H) Depth First Search,13. lowest common ancestor.py,"The most important step in the main algorithm is to recursively search for the lowest common ancestor (LCA) in the left and right subtrees. The LCA is found by checking if both the left and right subtrees return a non-empty LCA. If they do, then the current node is the LCA. If not, the algorithm returns the non-empty child (either the left or right subtree).",This algorithm is attempting to find the Lowest Common Ancestor (LCA) of two nodes in a binary tree given the root and the values of the two nodes.
+H) Depth First Search,4. Path With Given Sequence (medium).py,The most important step to remember is to append the current root value to the current sequence.,"Given a binary tree and a number sequence, the algorithm is checking if the sequence is present as a root-to-leaf path in the given tree."
+H) Depth First Search,2. All Paths for a Sum (medium).py,"The most important step to remember in this algorithm is to recursively traverse the binary tree while keeping track of the current path and the current sum. 
+When a leaf node is reached, check if the sum of all node values in the current path is equal to the required sum. If it is, add the current path to the list of all paths.
+Continue traversing the left and right sub-trees, subtracting the value of the current node from the remaining sum. 
+After the recursive calls, remove the current node from the current path to backtrack and continue exploring other paths.","The algorithm is attempting to solve the problem of finding all paths in a binary tree from the root to a leaf node, where the sum of node values in each path equals a given target sum."
+H) Depth First Search,5. Count Paths for a Sum (medium).py,"The most important step of the main algorithm to remember is to recursively traverse the tree, starting from the root node.","Given a binary tree and a sum, the algorithm should find all paths in the tree
+where the sum of all node values on each path is equal to the sum."
+H) Depth First Search,6.Tree Diameter (medium).py,The most important step in the algorithm is determining the height of the binary tree.,"The algorithm solves the problem of finding the diameter of a binary tree, which is the longest path between any two leaf nodes in the tree. It uses a recursive approach to calculate the height of the tree and the potential diameter at each node. The algorithm then returns the maximum diameter among the left subtree, right subtree, and potential diameter."
+Q) Excel Title Online,num_to_title.py,"The most important step of the main algorithm to remember is:
+
+- Subtract 1 from the given columnNumber before starting the conversion.","Given an integer columnNumber, the algorithm aims to find its corresponding column title as it appears in an Excel sheet."
+Q) Excel Title Online,title_to_num.py,The most important step to remember is the conversion of each letter to its corresponding column number. This is done by subtracting the ASCII value of 'A' from the ASCII value of the letter and adding 1 to get the distance from 'A' (indexed at 1).,The algorithm attempts to solve the problem of converting an Excel column title to its corresponding column number.
+L) Bitwise  XOR,practice.py,"The most important step of the main algorithm to remember is:
+
+- For finding the missing number in a given array, XOR all values from 1 to n and then XOR with all values in the array. The result will be the missing number.
+
+Additional step for finding single numbers in an array:
+
+- XOR all the numbers in the array to get n1xn2 (XOR of the two single numbers).
+- Get the rightmost bit that is '1' in n1xn2.
+- XOR all the numbers in the array based on whether the rightmost bit is set or not. The result will be the two single numbers.","The algorithm is attempting to solve various bitwise operations problems. It includes functions to find a missing number in an array, find a single number in an array that appears only once, find two single numbers in an array that appear only once, and calculate the bitwise complement of a number."
+L) Bitwise  XOR,0. test.py,The most important step to remember in this algorithm is to find the XOR of all values from 1 to n: x1. This is done in the first for loop. The missing number is then obtained by taking the XOR of x1 and x2.,The algorithm is attempting to solve the problem of finding the missing number in an array.
+L) Bitwise  XOR,1. Single Number.py,The most important step to remember is to use the XOR operation to find the single number.,"The algorithm attempts to solve the problem of finding the single number that appears only once in an array of integers, where all other numbers appear twice."
+L) Bitwise  XOR,3. Base 10 (medium).py,"- Count the number of total bits in `num` by shifting `num` to the right and incrementing `bit_count`.
+- Calculate `all_bits_set` by subtracting 1 from 2 raised to the power of `bit_count`.
+- Calculate the complement by performing a bitwise XOR operation between `num` and `all_bits_set`.","Given a positive integer in base-10, the algorithm aims to find its complement in base-10. The algorithm converts the given number to binary, calculates the complement in binary, and converts it back to base-10."
+L) Bitwise  XOR,2. Two Single Numbers (medium).py,The most important step to remember in this algorithm is the XOR operation used to find the XOR of all the numbers. The second important step is to find the rightmost set bit in the XOR result and use it to partition the numbers into two groups.,"Given a non-empty array of numbers, the algorithm is attempting to find the two numbers that appear only once in the array while all other numbers appear exactly twice."
+N) K-Way Merge,1. Merge K Sorted Lists (medium).py,"- Iterate through each sorted list and push their elements to a min heap.
+- Pop the smallest element from the min heap and add it to the result list. If the popped element has a next element, push it back to the min heap. Repeat this process until the min heap is empty.","Given an array of K sorted linked lists, the algorithm aims to merge all the linked lists into one sorted list."
+N) K-Way Merge,2. Kth Smallest Number in M Sorted Lists (Medium).py,"The most important step in the main algorithm is:
+- Take the smallest element from the min-heap and add it to the result. If the element has a next element, add it to the min-heap.","Given M sorted arrays, the algorithm aims to find the Kth smallest number among all the arrays. The algorithm makes use of a min heap to maintain the smallest elements from each array, iteratively popping the smallest element and adding it to the result."
+N) K-Way Merge,3. Merge K Stored Arrays.py,The most important step of the main algorithm to remember is to create a min heap and push the initial elements from each list into the heap.,This algorithm is attempting to merge multiple sorted lists into a single sorted list.
+K) Modified Binary Search,1. Order Agnostic Binary Search.py,"The most important step in the main algorithm is the binary search itself. This involves dividing the array in half and comparing the middle element to the key. Based on whether the array is in ascending or descending order, the search is continued in the upper or lower half of the array until the key is found or the search range is exhausted.","The algorithm is attempting to solve a problem where given a sorted array of numbers, it finds if a given number key is present in the array and returns the index of the key if it is present, otherwise returns -1."
+K) Modified Binary Search,278_first_bad_version.py,The most important step of the main algorithm is to update the `left` or `right` pointer based on whether the middle element is a bad version or not.,"Given a list of bad versions and a function `isBadVersion` that checks if a version is bad or not, the algorithm aims to find the index of the first bad version."
+K) Modified Binary Search,7. Bitonic Array Maximum (easy).py,The most important step is finding the middle element and comparing it with its adjacent element to determine whether to move the start or end pointer.,"Given a bitonic array, the algorithm aims to find the maximum value in the array. A bitonic array is defined as an array that is monotonically increasing and then monotonically decreasing. The algorithm uses a binary search approach to find the maximum value in O(log N) time complexity."
+K) Modified Binary Search,8. Proglem Challenge 1 (medium).py,"The most important step in the main algorithm to remember is: 
+
+- Check if the mid element is equal to the key value and return mid if it is.
+
+- Check if the mid element is in the increasing part or the decreasing part of the bitonic array. 
+
+- If the mid element is in the increasing part:
+    - If the key is greater than the mid element, update the start pointer to mid + 1.
+    - If the key is less than or equal to the mid element, update the end pointer to mid - 1.
+
+- If the mid element is in the decreasing part:
+    - If the key is less than the mid element, update the start pointer to mid + 1.
+    - If the key is greater than or equal to the mid element, update the end pointer to mid - 1.",The algorithm aims to find the index of a given key in a bitonic array. A bitonic array is an array that is monotonically increasing and then monotonically decreasing.
+K) Modified Binary Search,9. Search in Pivoted Array.py,The most important step to remember in this binary search algorithm is to update either `high` or `low` in each iteration based on whether the bottom half of the array is sorted or not.,The algorithm is attempting to solve the problem of finding a target value in a rotated sorted array.
+K) Modified Binary Search,2. Ceiling of a Number.py,The most important step in the main algorithm is the binary search logic implemented in the while loop.,The algorithm is attempting to solve the problem of finding the ceiling of a given number in a sorted array.
+K) Modified Binary Search,4. Number Range (medium).py,"- The most important step in the algorithm is the binary search. This is where the array is divided and the middle element is checked against the key value. 
+- Another important step is finding the range of the key after it has been found. This involves checking elements before and after the key to determine the first and last positions.","Given a sorted array of numbers and a target key, the algorithm attempts to find the range of the key in the array. The range is defined as the first and last positions in the array where the key is found. If the key is not present in the array, it returns an range of [-1, -1]. It uses a binary search algorithm to find the key in the array."
+K) Modified Binary Search,162. Find Peak Element.py,- The most important step of the algorithm is the binary search-like iteration in the `while` loop. This is the key step to find the peak element in logarithmic time complexity.,"Given a 0-indexed integer array nums, find a peak element, and return its index. A peak element is an element that is strictly greater than its neighbors. If the array contains multiple peaks, return the index of any of the peaks. The algorithm must run in O(log n) time."
+K) Modified Binary Search,6 Minimum Diff Element (medium).py,The most important step to remember is the binary search algorithm implemented in the `search_min_diff_element` function. This algorithm compares the key with the middle element of the array and adjusts the start and end indices based on the comparison. This step is crucial for finding the element with the minimum difference.,"Given a sorted array and a key, the algorithm aims to find the element in the array that has the minimum difference with the key."
+K) Modified Binary Search,5. Search in a Sorted Infinite Array (medium).py,The most important step in the main algorithm is finding the range (start and end) in which the key might be present in the array.,"The algorithm is attempting to solve the problem of finding a given number in an infinite sorted array. It returns the index of the number if it is present in the array, otherwise it returns -1."
+K) Modified Binary Search,3. Next Letter (medium).py,The most important step in the algorithm is the binary search.,"Given a sorted array of lowercase letters, the algorithm aims to find smallest letter in the array that is greater than a given key. The array is assumed to be circular, meaning that the last letter is connected to the first letter. The algorithm uses binary search to find the next letter of the given key."
+C) fast & slow pointers,2. LinkedList find_cycle_start.py,"The most important step of the main algorithm to remember is:
+
+1. Determine if a cycle exists in the LinkedList by checking if the slow and fast pointers meet while iterating through the LinkedList.",The algorithm is attempting to find the starting node of a cycle in a singly linked list. It uses the Floyd's Cycle Detection algorithm to detect the cycle and then uses two pointers to find the starting node.
+C) fast & slow pointers,6. Rearrange a LinkedList (medium).py,The most important step in the main algorithm is the `reorder()` function.,"Given a Singly LinkedList, the algorithm is attempting to modify the LinkedList such that the nodes from the second half of the LinkedList are inserted alternately to the nodes from the first half in reverse order. The algorithm should not use any extra space and the input LinkedList should be modified in-place."
+C) fast & slow pointers,1. LinkedList Cycle (easy).py,"The most important step to remember is the use of the two-pointer technique to detect a cycle in the linked list. In the `has_cycle` function, the slow pointer moves one node at a time while the fast pointer moves two nodes at a time. If there is a cycle, the two pointers will eventually meet at the same node.",The algorithm is attempting to solve the problem of determining whether a Singly LinkedList has a cycle in it or not.
+C) fast & slow pointers,4. Middle of the LinkedList (easy).py,"The most important step in the main algorithm is finding the middle node of the LinkedList. Specifically, the step of using two pointers, one moving slow and the other moving fast by two nodes, to traverse the LinkedList until the fast pointer reaches the end or the second last node.","Given the head of a singly LinkedList, the algorithm aims to find and return the middle node of the LinkedList. If the total number of nodes in the LinkedList is even, it will return the second middle node."
+C) fast & slow pointers,3. Hapy Number.py,"The most important step to remember in the main algorithm is:
+- Use the ""has_cycle"" method in the Node class to check if the constructed list has a cycle.","The algorithm is attempting to solve the happy number problem, which involves determining if a given number is a happy number. A happy number is a number that, when repeatedly replacing it with the sum of the squares of its digits, eventually leads to the number 1. Any number that does not reach 1 and instead gets stuck in a cycle is considered a not-happy number."
+C) fast & slow pointers,3B. Hapy Number Faster.py,"The most important step to remember in the main algorithm is the while loop that checks if the slow and fast numbers are equal. This loop ensures that the algorithm will continue iterating until it either finds a cycle or it reaches the number 1, which determines whether the input number is a happy number or not.","The algorithm attempts to determine whether a given number is a happy number or not. A happy number is defined as a number that, when repeatedly replaced with the sum of the square of its digits, eventually leads to the number 1. If the number forms a cycle and doesn't reach 1, it is not a happy number."
+C) fast & slow pointers,5. Palindrome LinkedList (medium).py,"The most important step of the main algorithm to remember is the following:
+
+1. Find the middle of the linked list using two pointers (slow and fast).
+2. Reverse the second half of the linked list.
+3. Compare each node value from the first half of the linked list with the corresponding node value from the reversed second half of the linked list. If any values do not match, it is not a palindrome.","The algorithm is attempting to solve the problem of determining if a given Singly LinkedList is a palindrome or not. The algorithm uses constant space and has a time complexity of O(N), where N is the number of nodes in the LinkedList."
+R) MISC,merge_sort.py,"The most important step in the main merge_sort algorithm to remember is the recursive step: 
+
+- Divide the array into two halves and recursively call merge_sort on each half. 
+
+This ensures that the array is continuously divided into smaller subarrays until they reach a size of 1 or 0.","The algorithm is attempting to solve the problem of sorting an array of integers using the merge sort algorithm. It recursively divides the array into halves, sorts them, and then merges them back together. The code also includes assertions with test cases to verify the correctness of the implementation."
+R) MISC,670. Maximum Swap.py,"The most important step of the main algorithm to remember is:
+- Convert the input number to a string and then to a list of characters.
+
+Other important steps are:
+- Create a dictionary to store the last occurrence index of each number in the list.
+- Iterate through the list to find a number greater than the current number.
+- Swap the current number with the highest possible number and return the result.
+
+Remember to convert the final list back to an integer.","Given an integer `num`, the algorithm aims to find the maximum valued number by swapping at most two digits. It works by converting the number to a list of digits, finding the last occurrence index for each digit, and then iterating over each digit to find a larger digit and swapping it."
+R) MISC,stacks_adj_str.py,"The most important step to remember in the main algorithm is:
+
+1. Iterate over the string and compare each character to the top character of the stack. If they are the same, pop the character from the stack. If they are different, push that character onto the stack.
+
+This process helps in removing adjacent duplicates from the string.",This algorithm takes a string and removes consecutive duplicate characters from it. It uses a stack to keep track of the unique characters and returns a new string without any consecutive duplicates. The algorithm has been tested with different inputs and all tests passed.
+R) MISC,49. Group Anograms.py,"- Sort each string in the original list
+- Build a hashmap using the sorted string as the key and a list of original strings as the value.","The algorithm takes a list of strings and groups anagrams together. It iterates through the original list, sorts each string, and adds it to a hash map. The final output is a list of lists, where each inner list contains grouped anagrams."
+R) MISC,stacks_calculator.py,"- Keep track of the current number being parsed and update it as digits are encountered.
+- Whenever an arithmetic operator (+ or -) is encountered, update the result by adding the current number multiplied by the sign value. Reset the number to 0 and update the sign value accordingly.
+- When an opening parenthesis is encountered, push the current result and sign value to the operations stack, and reset the result and sign value to their initial values.
+- When a closing parenthesis is encountered, update the result by adding the current number multiplied by the sign value. Pop the sign value from the operations stack and multiply the result by it. Then, pop the second value (previous result before the opening parenthesis) from the operations stack and add it to the current result. Reset the number to 0.","The algorithm is attempting to solve the problem of evaluating a mathematical expression given as a string. It supports addition and subtraction operations, as well as parentheses to specify the order of operations."
+R) MISC,1249. Minimum Remove to Make Valid Parentheses.py,"- The main algorithm is to iterate through the string and keep track of the indices of opening parentheses using a stack.
+- When a closing parentheses is encountered, if there is a corresponding opening parentheses in the stack, remove the opening parentheses from the stack. Otherwise, blank the closing parentheses.
+- After iterating through the string, if there are any remaining opening parentheses in the stack, blank their indices.
+- Finally, join the modified list of characters back into a string and return it.","Given a string that consists of lowercase English characters, '(' and ')', the algorithm aims to remove the minimum number of parentheses to make the resulting string valid. A parentheses string is valid if it meets one of the following criteria: it is empty, contains only lowercase characters, can be represented as AB (A concatenated with B), or can be represented as (A), where A is a valid string."
+R) MISC,50_POW.py,"The most important step of the main algorithm to remember is:
+
+- When n is odd, multiply the result by x and subtract 1 from n.
+- When n is even, square x and divide n by 2.",The algorithm is trying to calculate the result of raising a number `x` to the power `n`.
+R) MISC,121_best_time_to_buy_stock.py,The most important step to remember is to iterate through the prices array and calculate the current profit by subtracting the current price from the lowest price seen so far. Update the maximum profit if the current profit is greater.,This algorithm is attempting to solve the problem of finding the maximum profit that can be obtained by buying and selling stocks at different days.
+R) MISC,rotational_cipher.py,"The most important step to remember in the main algorithm is the calculation of the rotated character based on its type (numeric, uppercase letter, lowercase letter). This step involves adjusting the scale of the character to 0, adding the rotation factor, applying the modulus operation (10 for numeric characters, 26 for letters), and adjusting the scale back to the original range.",The algorithm is attempting to solve the problem of rotating a given input string by a specified rotation factor.
+R) MISC,matrix0.py,"The most important step to remember in the main algorithm is to iterate through the matrix and identify which rows and columns contain zeros, and store them in separate sets. Then, iterate through the matrix again and set any element in a row or column that is in the row_set or col_set to zero. This effectively sets the entire row and column to zero if any element within it is zero.",The algorithm attempts to solve the problem of setting all rows and columns of a matrix to zero if any element within the matrix is zero.
+R) MISC,1091. Shortest Path in Binary Matrix.py,The most important step in the main algorithm to remember is the breadth-first search (BFS) traversal of the grid using the queue. This is what allows us to find the shortest clear path in the matrix.,"The algorithm is attempting to find the shortest clear path in a binary matrix from the top-left cell to the bottom-right cell, given the following conditions: all visited cells along the path must be 0, and all adjacent cells must be connected 8-directionally. If there is no clear path, the algorithm returns -1."
+R) MISC,71. Simplify Path.py,"The most important step of the algorithm is to iterate through the directories in the path and handle the following cases:
+1. If the directory is "".."", pop the top directory from the stack.
+2. If the directory is not ""."", """", or "".."", append it to the stack.
+3. Join the remaining directories in the stack with ""/"" to create the canonical path.","The algorithm solves the problem of converting a given absolute path in a Unix-style file system to its simplified canonical path. It handles cases where the path contains directories like '.', '..', and multiple consecutive slashes ('//'), and returns the canonical path adhering to the specified format."
+R) MISC,matrix_rotation.py,The most important step of the main algorithm to remember is to rotate the elements of the matrix by swapping rows and columns.,"Given a matrix, the algorithm should rotate the matrix 90 degrees in clockwise direction. It does so by creating a new matrix and placing the rotated elements in their proper positions."
+R) MISC,backtracking.py,The most important step to remember in the main algorithm is the depth_first_search function. This function is responsible for searching the given word in the grid using a backtracking approach.,The algorithm attempts to solve the problem of searching for a specific word in a grid. It uses backtracking and depth-first search to check if the word can be formed by traversing adjacent cells in the grid.
+R) MISC,13_roman_to_int.py,"The most important step to remember is to iterate through the input roman numeral and check if the current character and the previous character make a subtraction pair. If they do, subtract the value of the previous character and add the value of the subtraction pair to the result. If they don't make a subtraction pair, add the value of the current character to the result.",The algorithm is attempting to solve the problem of converting a Roman numeral to an integer value. It follows the rules of Roman numeral representation and uses a map to match each Roman numeral to its corresponding integer value.
+J) Subsets,practice.py,"The most important steps to remember in the main algorithm are:
+
+1. For the ""find_subsets"" function:
+   - Initialize the subsets container with an empty list as the first subset.
+   - Iterate over each number in the given list.
+   - For each number, iterate over each subset in the subsets container and create a new subset by appending the current number to each element of the subset.
+
+2. For the ""find_subsets_dups"" function:
+   - Sort the nums list.
+   - Initialize the subsets container with an empty list as the first subset.
+   - Set the start and end pointers to determine which subsets need to be added depending on the duplicates.
+   - Iterate over the nums list.
+   - Check for duplicates by comparing the current number with the previous number.
+   - If duplicates are found, set the start pointer to the end pointer. This ensures that the subsets are added from the start of the subsets added in the previous iteration.
+   - Update the end pointer to the length of the subsets.
+   - For each subset from start to end, create a new subset by appending the current number.
+   - Append the new subset to the subsets container.
+
+3. For the ""find_permutations"" function:
+   - Create a result list and an intermediate permutations list.
+   - Initialize the permutations list with an empty list.
+   - Iterate over the nums list.
+   - For each number, iterate over the current length of the permutations list.
+   - Pop the first element of the permutations list, called the subset.
+   - Iterate over the length of the subset plus one to insert the current number at all possible positions.
+   - If the length of the new subset is equal to the length of the nums list, append it to the result list.
+   - Otherwise, append it to the permutations list.
+
+4. For the ""find_letter_case_string_permutations"" function:
+   - Create a permutations list and add the input string as the first element.
+   - Iterate over the length of the string.
+   - Check if the current character is a number. If so, continue to the next iteration.
+   - For each permutation in the current list of permutations, switch the case of the character at the current index and add it to the permutations list.
+
+Remember to initialize any necessary containers and variables before starting the main loops. Pay attention to any specific conditions or requirements mentioned in the function comments.","The algorithm is attempting to solve multiple problems related to subsets and permutations. It includes functions to find subsets of a given list, subsets of a list with duplicates, permutations of a list, and permutations of a string with letter case variations."
+J) Subsets,1. Subsets.py,"The most important step of the algorithm is:
+- Iterate through each element in the input array
+- For each element, iterate through all existing subsets and create a new subset by appending the current element to each existing subset. Add the new subset to the list of subsets.",The algorithm is attempting to find all possible subsets of a given set of distinct elements.
+J) Subsets,3. Permutations.py,"- The main step to remember is the nested loops used to generate all permutations. The outer loop iterates through each element in the input list, while the inner loops iterate through each position in each permutation generated so far.
+- Another important step is the use of a deque data structure to store the permutations. This allows efficient popping and appending of permutations as they are generated.",The algorithm takes a set of distinct numbers and finds all of its permutations.
+J) Subsets,2. Subset Dups.py,"- The most important step is to initialize the subsets list with an empty subset: subsets = [[]]. This is important because it ensures that the result includes the empty subset as one of the subsets.
+- Another important step is to append a new subset to the subsets list by iterating over the existing subsets and adding the current element from the input list. This is done in the inner loop: for j in range(start, end). This step ensures that all possible subsets are generated.",The algorithm is attempting to find all distinct subsets of a given set with distinct elements.
+J) Subsets,4. String Permutations.py,"The most important step to remember in the main algorithm is to loop through each character of the input string and check if it is a letter. If it is a letter, swap its case and append the new permutation to the list of permutations.",The algorithm is attempting to find all permutations of a given string while preserving the character sequence but changing the case of some characters.
+O) Knapsack ,dijkstra.py,- The most important step is finding the lowest cost node among the unprocessed nodes. This is done in the `find_lowest_cost_node` function.,The algorithm is attempting to solve the problem of finding the lowest cost node in a graph given a dictionary of costs and a list of already processed nodes. It then updates the costs and parents of the neighboring nodes of the lowest cost node.
+O) Knapsack ,01 Knapsack done Internal.py,"The most important step is to fill in the dynamic programming table with the maximum profit for each possible weight and item combination. This is done using the following code:
+
+```
+# for 1 to N rows (since we took all in first)
+for i in range(1, ROWS):
+  # for 1 to C columns (since at 0 we take nothing)
+  for c in range(1, COLUMNS):
+    profit1, profit2 = 0, 0
+    if c >= weights[i]:
+      profit1 = profits[i] + dp[i - 1][c - weights[i]]
+    profit2 = dp[i - 1][c]
+
+    dp[i][c] = max(profit1, profit2)
+```
+
+Here, `dp[i][c]` represents the maximum profit that can be achieved with a weight limit of `c` and considering the first `i` items. `profit1` is the maximum profit if we include the current item `i` in the knapsack, and `profit2` is the maximum profit if we exclude it. The maximum of these two values is then stored in `dp[i][c]`. This is done in a nested loop, where `i` iterates from 1 to `ROWS-1` and `c` iterates from 1 to `COLUMNS-1`.","Given two arrays, one representing the profits and the other representing the weights of N items, the algorithm finds the maximum profit that can be obtained by selecting a subset of the items such that their cumulative weight does not exceed a given capacity C."
+O) Knapsack ,3 Subset Sum (medium).py,The most important step of the main algorithm to remember is the dynamic programming part where we fill in the dp array to determine if a subset exists whose sum is equal to the given number S.,"Given a set of positive numbers, the algorithm is attempting to determine if there exists a subset whose sum is equal to a given number S."
+O) Knapsack ,practice.py,"The most important step of the main algorithm to remember is the nested loop that calculates the optimal profit for each item and capacity combination:
+
+```python
+#CORE ALGO
+# ROWS = for 1 to len(profit) - since we took all in first row above
+## COLS - for 1 to C columns - since we consider 0 capacity
+## reset profit pointers
+### if capacity >= cost to carry item
+#### if so profit1 = profit of current item + profit at excess capacity
+######## profit @excess => prior row, col = current capacity - current weight
+### second profit => prior row at current capacity
+## update dynamic prog array at current row & col = max(two profit optoins)
+for r_prof in range(1, R_PROFIT):
+  for c_cap in range(1, C_CAPACITY):
+    profit1, profit2 = 0,0
+    if c_cap >= weights[r_prof]:
+      profit1 = profits[r_prof] + dp[r_prof - 1][c_cap - weights[r_prof]]
+    profit2 = dp[r_prof - 1][c_cap]
+    dp[r_prof][c_cap] = max(profit1, profit2)
+```
+
+This nested loop calculates the optimal profit for each item and capacity combination using the recurrence relation: 
+
+`dp[r_prof][c_cap] = max(profit1, profit2)`
+
+where `profit1` is the profit after choosing the current item and `profit2` is the profit without choosing the current item. This step is crucial in determining the maximum profit for the given constraints.","The algorithm is attempting to solve the knapsack problem, which involves finding the maximum profit that can be obtained by selecting items such that their total weight does not exceed a given capacity."
+O) Knapsack ,1A - Brute Force :  Knapsack (medium).py,"The most important step of the algorithm is to calculate the maximum profit by recursively choosing and excluding items. This is done by comparing the profit of including an item at the current index (`profit1`) with the profit of excluding the item (`profit2`), and returning the maximum of the two.","This algorithm solves the knapsack problem using a recursive approach. Given the profits and weights of N items, as well as a capacity limit, the algorithm finds the maximum profit possible by selecting a subset of items whose cumulative weight does not exceed the capacity limit."
+O) Knapsack ,2 Equal Subset Sum Partition.py,"- The most important step of the algorithm is initializing the `dp` matrix with the base cases. Here, we set `dp[i][0] = True` for all `i` to represent that we can always form a sum of 0 with an empty set. We also set `dp[0][j] = True` for the first number in the input list, `num[0]`, to represent that we can form a subset with a sum equal to `num[0]`.",The given algorithm is attempting to solve the problem of finding if a set of positive numbers can be partitioned into two subsets such that the sum of elements in both subsets is equal.
+O) Knapsack ,1B - Memoization :  Knapsack (medium).py,The most important step of the main algorithm to remember is the recursive function `knapsack_recursive` where the optimal profit is calculated. This function is called multiple times with varying parameters to consider different combinations of items and capacities. The function uses memoization to store the results of subproblems and avoid redundant calculations.,"The algorithm solves the knapsack problem, which involves selecting items from two given arrays of weights and profits. The goal is to find the maximum profit while ensuring that the total weight of the selected items does not exceed a given capacity. The algorithm uses recursion and memoization to efficiently solve the problem."
+O) Knapsack ,1E SuperFast Algo - Single Array.py,"The most important steps to remember in the knapsack algorithm are:
+1. Initialize the dynamic programming array (dp) with all zeros.
+2. Iterate through each item and for each capacity, calculate the maximum profit by either including or excluding the current item.
+3. Update the dp array with the maximum profit at each capacity.
+4. Return the maximum profit at the target capacity (dp[capacity]).","This algorithm solves the knapsack problem, where we have to find the maximum profit we can obtain by selecting items with given weights and profits, such that the total weight does not exceed a given capacity."
+O) Knapsack ,1D SuperFast Algo.py,"The most important step in the main algorithm to remember is the calculation of the maximum profit in the knapsack for each capacity. This is done by considering two scenarios for each item: including the item in the knapsack if it doesn't exceed the capacity, and excluding the item. The maximum profit among these two scenarios is then stored in the dynamic programming table.","Given weights and profits of N items, the algorithm aims to find a subset of these items that maximizes the profit while not exceeding a given weight capacity. It uses dynamic programming to efficiently solve this knapsack problem."
+O) Knapsack ,1C - Dynamic :  Knapsack (medium).py,"The most important step in the main algorithm is the double loop that fills the `dp` table. This loop iterates over all items and capacities, calculating the maximum profit that can be achieved for each subarray and capacity combination. The maximum profit for a given subarray and capacity is either the profit of including the current item plus the maximum profit for the remaining capacity, or the maximum profit from the previous item for the same capacity. The maximum profit is then stored in the `dp` table at the corresponding position.","The algorithm is trying to solve the knapsack problem, which involves finding a subset of items that maximize the total profit while not exceeding a given capacity."
+A) sliding-window,5. Repeated DNA.py,"- The most important step is to iterate through the string using a sliding window of length `k`. This is done in the `for` loop that starts at `range(k, len(s), 1)`.
+- Inside the loop, the current substring is checked if it is already present in the `input_set`. If it is, then it is added to the `output_set`. If it is not, then it is added to the `input_set`.
+- Finally, the `output_set` is formatted into a list, sorted, and returned as the result.","The algorithm takes a string `s` representing a DNA subsequence and an integer `k`. It finds all the contiguous substrings of length `k` that occur more than once in the string `s` and returns them as a list.
+
+This algorithm solves the problem of finding repeated substrings of a given length in a DNA subsequence."
+A) sliding-window,7. sliding freq str.py,"The most important step in the main algorithm is the while loop condition: `while compare_dicts(t_freq, freq)`.
+
+Another important step is updating the `min_substr` variable when a smaller window is found.",The algorithm is attempting to solve the problem of finding the minimum window substring in string `s` that contains all the characters of string `t`.
+A) sliding-window,3. Longest Substring with maximum K Distinct Characters (medium).py,The most important step of the algorithm is to keep track of the current longest substring with no more than K distinct characters. This is done by updating the largest_sub_array variable whenever a new substring with no more than K distinct characters is found.,"Given a string and an integer K, the algorithm is attempting to find the length of the longest substring in the string that contains no more than K distinct characters. It iterates through the string, maintaining a sliding window and counts the length of the longest substring with no more than K distinct characters. The time complexity of the algorithm is O(N), where N is the length of the string."
+A) sliding-window,4. Fruits into Baskets (medium).py,"The most important step of the main algorithm to remember is to iterate through the array with a sliding window approach. This involves maintaining a window_start and window_end pointer, and updating the window_start pointer when the number of fruits in the subarray exceeds k.","Given an array of characters representing different fruit trees, the algorithm aims to find the maximum number of fruits that can be placed in two baskets, with each basket containing only one type of fruit. The algorithm uses a sliding window approach to find the maximum subarray length. The time complexity is approximately O(N)."
+A) sliding-window,2. smallest_subset_given_sum_easy.py,The most important step of the main algorithm to remember is the nested while loop that iterates backwards until the window sum is no longer greater than or equal to 'S'.,The algorithm is attempting to solve the problem of finding the length of the smallest contiguous subarray whose sum is greater than or equal to a given target number.
+A) sliding-window,1. max_sub_array_of_size_k.py,The most important step of the main algorithm to remember is to iterate through the array and calculate the sum of the current window of size K.,The algorithm is attempting to find the maximum sum of any contiguous subarray of size k in an array of positive numbers.
+A) sliding-window,13_roman_to_int.py,"The most important step of the main algorithm to remember is to iterate through the input Roman numeral string and convert each character into its corresponding integer value according to the given mapping. In case there is a subtraction rule applicable (i.e., the current character and the previous character form a valid subtraction), subtract the value of the previous character and add the value of the subtraction to the output.",The algorithm is attempting to convert a Roman numeral to an integer.
+A) sliding-window,6 Array String.py,"The most important step of the main algorithm to remember is:
+
+- Calculate the total product of all the elements in the input array.",The problem the algorithm is attempting to solve is finding an array output where each element is equal to the product of all the elements in the input array except the corresponding element.
+F) In-place Reversal of a LinkedList,234_palindrome_linked_list.py,"The most important step to remember in the main algorithm is to use the slow and fast pointer technique to find the middle of the linked list (line 9-12), and then reverse the second half of the list (line 14-17) before comparing the elements from the two halves inward (line 19-28) to check if it is a palindrome.","The algorithm is attempting to solve the problem of determining whether a linked list is a palindrome, meaning it reads the same forwards and backwards."
+F) In-place Reversal of a LinkedList,5. Reverse Alternating List.py,"The most important step of the main algorithm to remember is the reordering of the linked list. This is done in the following steps:
+
+1. Find the middle of the linked list using two pointers, a slow pointer and a fast pointer.
+2. Reverse the second half of the linked list.
+3. Merge the first half and the reversed second half of the linked list by alternating the nodes.","This algorithm takes a linked list as input and reorders it such that the nodes are rearranged in a specific pattern. It splits the linked list into two halves, reverses the second half, and then merges the two halves in an alternating fashion."
+F) In-place Reversal of a LinkedList,4. Reverse alternating K-element Sub-list (medium).py,- The most important step is to iterate through the linked list in groups of size k and reverse each group.,"The algorithm is attempting to solve the problem of reversing every k-sized sub-list in a linked list starting from the head. If there is a sub-list at the end with less than k elements, it should also be reversed."
+F) In-place Reversal of a LinkedList,3. Reverse every K-element Sub-list (medium).py,"- The most important step in the main algorithm is the nested while loop that reverses each sub-list of size k. This loop is responsible for reversing each sub-list and updating the pointers accordingly.
+- Another important step is connecting the left and right sides of the list. This is done by updating the appropriate next pointers of the previous and current nodes. This ensures that the reversed sub-lists are properly connected to the rest of the list.","Given the head of a LinkedList and a number k, the algorithm attempts to reverse every k-sized sub-list starting from the head. If there is a sub-list with less than k elements at the end, it is also reversed."
+F) In-place Reversal of a LinkedList,2. Reverse a sub linked list (medium).py,"The most important steps to remember in the main algorithm are:
+
+1. Traverse the linked list until you reach the node at position p-1. This will be the previous node to the sublist that needs to be reversed.
+2. Save the previous node and the current node at position p. These will be used to reconnect the reversed sublist later.
+3. Traverse the sublist from position p to position q, swapping the next pointers of each node to reverse the pointers.
+4. Reconnect the reversed sublist to the main linked list by updating the next pointers of the previous node and the current node at position p.
+5. Make sure to update the next pointer of the last node in the reversed sublist to the next node after position q.","Given a singly linked list and two indices `p` and `q`, the algorithm aims to reverse the sublist from index `p` to `q` (inclusive). The algorithm returns the new head of the reversed sublist."
+F) In-place Reversal of a LinkedList,1. Reverse Linked LIst (easy).py,"The most important step of the algorithm is the loop that iterates through the original linked list and reverses the links between the nodes. This involves updating the `next` pointer of each node to point to the previous node, and at the end of each iteration, updating the `current`, `previous`, and `next` pointers to progress to the next node in the list.","Given the head of a Singly LinkedList, the algorithm is trying to reverse the entire LinkedList by rearranging the pointers of each node, and then returning the new head of the reversed LinkedList."
+P) Topological Sort (Graph),4. Compilation Tasks.py,"The most important step to remember in the main algorithm is:
+
+1. Build the graph and count the incoming edges for each vertex.
+
+If there is more than one important step, it would be:
+
+2. Start with the vertices that have no incoming edges, and add them to a queue.
+
+3. While the queue is not empty, remove a vertex from the queue, append it to the result list, and reduce the incoming edges of its children. If any child has no more incoming edges, add it to the queue.
+
+These steps are crucial for constructing the order in which the classes should be compiled.","Given a list of dependency pairs where each pair consists of a child class and its parent class, the algorithm is trying to determine the order in which the classes should be compiled."
+P) Topological Sort (Graph),2. Tasks Scheduling (medium).py,The most important step in the algorithm is to build the graph and count the incoming edges for each node.,"Given the number of tasks and a list of prerequisite pairs, the algorithm determines if it is possible to schedule all the tasks without any dependency cycles."
+P) Topological Sort (Graph),practice.py,"The most important step of the main algorithm to remember is the core algorithm for solving the knapsack problem. This step involves iterating through the rows and columns of the dynamic programming array and calculating the two profit options for each cell. The dynamic programming array is updated with the maximum profit value, and the last cell of the array represents the optimal profit.","The algorithm is attempting to solve the knapsack problem, which involves selecting a subset of items with maximum profit while not exceeding a given capacity."
+P) Topological Sort (Graph),3. Tasks Scheduling Order (medium).py,"The most important step in the main algorithm is:
+
+1. Build the graph and count the incoming edges for each node.
+
+Another important step is:
+
+2. Get the tasks without any dependencies and add them to a queue or deque.
+
+Then, the algorithm proceeds with the following steps:
+
+3. Remove the tasks with no dependencies from the queue and add them to the result list.
+4. Decrement the incoming edges count for the child tasks of the removed task.
+5. If a child task's incoming edges count becomes zero, add it to the queue.
+6. Repeat steps 3-5 until the queue is empty.
+7. Finally, return the result list of scheduled tasks.","The algorithm attempts to find the correct ordering of tasks given their prerequisites, in order to finish all tasks. It does this by building a graph and counting the incoming edges for each task, and then using a breadth-first search (BFS) approach to determine the ordering."
+P) Topological Sort (Graph),1. Topological Sort (medium).py,"The most important step of the main algorithm to remember is:
+
+1) Find all sources i.e., all vertices with 0 in-degrees and add them to the sources queue.","The algorithm is attempting to find the topological ordering of vertices in a directed graph. It takes as input the number of vertices and a list of edges, and returns a valid topological sort of the graph vertices."
+E) Cycle Sort,4. Find the Duplicate Number (easy).py,The most important step of the main algorithm to remember is the swapping/cycle sort step. This step is crucial for finding the duplicate number without using any extra space.,"Given an unsorted array of integers containing n+1 numbers taken from the range 1 to n, the algorithm finds the duplicate number without using any extra space by modifying the input array."
+E) Cycle Sort,5. Find All Duplicate Numbers.py,"The most important step in the algorithm is swapping elements to their correct positions. Specifically:
+- If the current element is not equal to its correct position (i + 1), swap it with the element at its correct position.
+- If the element at the current position is already equal to its correct position, it is a duplicate. Add it to the set of duplicates.
+
+Additionally, it is important to increment the index (i) after each swap or when the current element is already in its correct position.","The algorithm is attempting to find all the duplicate numbers in an unsorted array, without using any extra space."
+E) Cycle Sort,6. Find the Corrupt Pair (easy).py,"The most important steps to remember are:
+
+1. Initialize `i` and `n` to 0 and the length of the input array `nums`, respectively.
+2. Create an empty set `dups` to store the duplicate numbers.
+3. Iterate through the array using a while loop, checking if the current index `i + 1` is not equal to the corresponding value `nums[i]`.
+4. If they are not equal, store the value of `nums[i]` as `first_idx`.
+5. If `first_idx` is equal to the value at index `first_idx - 1`, it means that `first_idx` is a duplicate number, so add it to the `dups` set.
+6. Otherwise, store the value at index `first_idx - 1` as `second_idx`.
+7. Swap the values at positions `i` and `first_idx - 1` in the array `nums`.
+8. Increment `i` by 1.
+9. If `i + 1` is equal to `nums[i]`, increment `i` by 1.
+10. Create an empty set `missing` to store the missing numbers.
+11. Iterate through the array using a for loop, checking if the current index `i + 1` is not equal to the corresponding value `nums[i]`.
+12. If they are not equal, add `i + 1` to the `missing` set.
+13. Return the set union of `dups` and `missing`.","The algorithm is attempting to find both the duplicate and missing numbers in an unsorted array with numbers from 1 to n, where one number is duplicated and one number is missing."
+E) Cycle Sort,practice.py,"The most important step in the main algorithm to remember is the cycle swapping step. This step involves swapping the values at two indices to put them in their correct locations. 
+
+In the `cyclic_sort` function, the cycle swapping step is highlighted by the code: 
+
+```python
+p1 = nums[i]  
+p2 = nums[p1-1]  
+nums[i] = p2  
+nums[p1-1] = p1 
+```
+
+In the `find_missing_number` function, the cycle swapping step is highlighted by the code: 
+
+```python
+p2_value = nums[p1_value]  
+nums[i] = p2_value  
+nums[p1_value] = p1_value
+```
+
+In the `find_missing_numbers` function, the cycle swapping step is highlighted by the code: 
+
+```python
+p2_val = nums[p1_val-1]  
+nums[i] = p2_val  
+nums[p1_val-1] = p1_val
+```
+
+In the `find_duplicate` function, the cycle swapping step is highlighted by the code: 
+
+```python
+p2_val = nums[p1_val - 1]  
+nums[i] = p2_val  
+nums[p1_val - 1] = p1_val
+```","The algorithm includes four functions: `cyclic_sort`, `find_missing_number`, `find_missing_numbers`, and `find_duplicate`. These functions are solving different problems related to sorting, finding missing numbers, and finding duplicates in a list."
+E) Cycle Sort,2. Find the Missing Number (easy).py,"The most important step to remember is:
+
+- Iterate through the array and swap the numbers to their correct positions, i.e., swap the number at index i with the number at index nums[i] until there are no more swaps left to be made.
+
+- After the swapping is done, iterate through the array again and return the index where the element is not equal to the index.
+
+- If all indices and elements are equal, return the length of the array.","Given an array `nums` containing `n` distinct numbers taken from the range 0 to `n`, the algorithm tries to find the missing number in the array."
+E) Cycle Sort,1. Cyclic Sort (easy).py,"The most important step of the main algorithm to remember is the cyclic swap. In this step, we swap the current element with the element that should be at its correct index. This swap is done using the indices of the elements and doesn't require any extra space.","Given an array containing n objects, each with a unique sequence number, the algorithm is attempting to sort the objects in-place based on their sequence number in O(n) time complexity and without using any extra space."
+E) Cycle Sort,3. Find all Missing Numbers (easy).py,"The most important step of the main algorithm to remember is:
+
+1. Iterate through the array and for each element, swap it with the element at its correct index (element - 1) if it is not already at the correct index.",The algorithm is attempting to find the missing numbers in an array containing numbers taken from the range 1 to 'n'. The array may have duplicates and the missing numbers need to be returned in ascending order.
+D) Merge Intervals,3. Intervals Intersection (medium).py,The most important step of the main algorithm to remember is the merging of intervals. This involves comparing the end and start times of the intervals from both lists and finding the intersection between them.,"The algorithm is attempting to find the intersection of two lists of intervals. Each interval is represented as a pair of start and end times, and the output should contain the common intervals between the two lists."
+D) Merge Intervals,2 Insert Interval (medium).py,"The most important step of the main algorithm to remember is: 
+
+1. Iterate through the intervals and find all intervals that have an overlap with the new interval. Update the start and end points of the new interval accordingly.","Given a list of non-overlapping intervals sorted by their start time, 
+the algorithm aims to insert a given interval at the correct position and merge all necessary intervals to produce a list that has only mutually exclusive intervals."
+D) Merge Intervals,1B. Merge Intervals (medium) list.py,The most important step to remember in the main algorithm is to sort the intervals before merging them.,The algorithm is attempting to solve the problem of merging overlapping intervals in a list of intervals. The goal is to produce a new list that contains mutually exclusive intervals.
+D) Merge Intervals,1. Merge Intervals (medium).py,The most important step of the main algorithm to remember is the sorting of intervals based on the start time. This is because merging the intervals requires them to be sorted in ascending order of start time so that overlapping intervals can be easily detected.,"Given a list of intervals, the algorithm aims to merge all overlapping intervals to produce a list that has only mutually exclusive intervals. It first sorts the intervals, then iterates through the intervals to merge them if they overlap."
+D) Merge Intervals,4. conflicting appointments (medium).py,"The most important step of the main algorithm to remember is:
+
+1. Sort the intervals in ascending order based on the start time.
+
+2. Use two pointers, 'left' and 'right', to check for overlapping intervals.
+
+3. Check if there is no overlap between the current left and right intervals. If there is no overlap, return False.
+
+4. If there is overlap, update the pointers accordingly. If the end time of the right interval is greater than or equal to the end time of the left interval, decrement the right pointer. Otherwise, increment the left pointer.
+
+5. If the above steps are completed without finding any overlapping intervals, return True.","Given an array of intervals representing 'N' appointments, the algorithm aims to determine if a person can attend all the appointments without any overlaps."
+S) fb_int_prep,528. Random Pick with Weight.py,"- Calculate the probability for each index: `probs = [weight/total for weight in weights]`
+- Use `random.choices()` to pick an index with the calculated probabilities: `idx = random.choices(indices, weights=probs, k=1)[0]`",The algorithm solves the problem of randomly picking an index from an array based on the given weights. The probability of picking an index is determined by the weight of that index relative to the sum of all weights.
+S) fb_int_prep,1762_buildings_with_ocean_view.py,"The most important step to remember is to iterate through the heights array in reverse order, starting from the last element.",The algorithm aims to find the buildings that have an ocean view from a line of buildings represented by an input array of heights. Buildings have an ocean view if all the buildings to their right have a smaller height.
+S) fb_int_prep,278_first_bad_version.py,"The most important step is the binary search algorithm implemented in the `badv` function, where the left and right pointers are adjusted based on whether the current version is bad or not.","Given a list of versions and a function `isBadVersion()` that returns `True` if a version is bad and `False` otherwise, the algorithm is attempting to find the index of the first bad version in the list using a binary search approach."
+S) fb_int_prep,28. Find the Index of the First Occurrence in a String.py,"The most important step in the main algorithm is to iterate through the haystack string and check if the current window of characters matches the needle. If a match is found, we return the starting index of the match. Otherwise, we continue iterating through the haystack.","Given a haystack string and a needle string, the algorithm aims to find the index of the first occurrence of the needle in the haystack. If the needle is not found in the haystack, it returns -1."
+S) fb_int_prep,670. Maximum Swap.py,"The most important steps to remember in the `max_swap` algorithm are:
+
+1. Convert the given number `num` into a list of digits `num_lst`.
+2. Create a dictionary `last_oc_map` that maps each digit in `num_lst` to its last occurrence index in `num_lst`.
+3. Iterate through each digit in `num_lst` with its corresponding index.
+4. For each digit, iterate from 9 to a number greater than the current digit, and check if there is a digit greater than the current digit in `last_oc_map`.
+5. If a greater digit is found, swap it with the current digit in `num_lst` and return the maximum swapped number as an integer.
+6. If no greater digit is found, return the original number `num` as an integer.
+
+Note: The time complexity of this algorithm is O(N), where N is the number of digits in `num`.",The algorithm takes an integer and returns the maximum possible value that can be obtained by swapping two digits at most once in the given integer.
+S) fb_int_prep,680 valid pal remove one.py,"The important step to remember in the main algorithm is the condition to check if a character should be removed. This is done by comparing the character at index p1 and p2. If they are not equal, then the algorithm creates two string copies and removes the character at p1 from one copy and the character at p2 from the other copy. It then checks if either copy is a valid palindrome by comparing it to its reverse. If at least one of the copies is a palindrome, it returns True.",The algorithm is attempting to solve the problem of determining whether a given string can be made into a valid palindrome by deleting at most one character.
+S) fb_int_prep,334_increase_triplet_sequence.py,"- The most important step to remember in the algorithm is the loop that checks for triplet conditions: `if leftV < midV and midV < rightV`.
+- Another important step is updating the indexes and values of `mid`, `left`, and `right` within the loop:
+  - `if leftV > rightV: right -= 1; rightV = arr[right]`
+  - `else: mid += 1; midV = arr[mid]`",The algorithm is attempting to find if there are three integers in the given array `arr` such that the middle integer is strictly greater than the left integer and strictly smaller than the right integer. It returns `True` if such a triplet exists and `False` otherwise.
+S) fb_int_prep,234_palindrome_linked_list.py,"The most important step to remember in the main algorithm is:
+1. Reversing the second half of the linked list.
+
+Additionally, two important points to note are:
+- Use of slow and fast pointers to identify the middle of the linked list.
+- Checking if the linked list has an even number of nodes, which cannot be a palindrome.",The algorithm is attempting to determine whether a given linked list is a palindrome by reversing the second half of the list and comparing it to the first half.
+S) fb_int_prep,49. Group Anograms.py,"The most important step of the main algorithm is to iterate through the original list and for each string, sort it and add it to a hashmap with the sorted string as the key and the original string as the value.",The algorithm is attempting to solve the problem of grouping an array of strings such that all anagrams are grouped together.
+S) fb_int_prep,283_move_zeros.py,"The most important step to remember in this algorithm is: 
+
+1. Iterate through the array, and for each non-zero element, move it to the front of the array by swapping it with the element at index i. Increment i after every swap. 
+
+After this step, all non-zero elements will be at the front of the array, maintaining their relative order. 
+
+2. Fill the remaining elements from i to the end of the array with zeros. 
+
+This will move all the zeros to the end of the array while maintaining the relative order of the non-zero elements.",The algorithm is attempting to solve the problem of moving all zeros to the end of the given integer array while maintaining the relative order of the non-zero elements.
+S) fb_int_prep,1249. Minimum Remove to Make Valid Parentheses.py,"The most important step of the main algorithm to remember is to check if there are matching parentheses in the string. If there are, remove the corresponding parentheses and return the resulting valid string. If there are any remaining unmatched parentheses at the end, blank those indices.","This algorithm is attempting to solve the problem of removing the minimum number of parentheses in a string such that the resulting string is valid. A string is considered valid if it is either empty, contains only lowercase characters, or can be written in the form AB (A concatenated with B) or (A), where A and B are valid strings."
+S) fb_int_prep,1570. Dot Product of Two Sparse Vectors.py,"The most important step of the algorithm to remember is the calculation of the dot product in the `dotProduct` method of the `SparseVector` class:
+
+   `return sum(v * vec.nums.get(i, 0) for i, v in self.nums.items())`",The algorithm is attempting to calculate the dot product of two sparse vectors represented as lists in a more optimal way.
+S) fb_int_prep,50_POW.py,"The most important step is the calculation within the while loop. Specifically, the line `x = (x * x)` and `n = n/2`. This step is crucial for exponentiation by squaring algorithm, which allows us to efficiently calculate the result by repeatedly squaring the base.","This algorithm calculates the value of `x` raised to the power of `n` (i.e., xn). It uses iterative exponentiation and handles negative exponents by taking the reciprocal of `x`."
+S) fb_int_prep,121_best_time_to_buy_stock.py,The most important step is to compare the current price to the previous price and calculate the current profit.,"The algorithm is attempting to solve a problem where given an array of stock prices, it aims to find the maximum profit that can be obtained by buying and selling the stock."
+S) fb_int_prep,88_merged_sorted_array.py,"The most important step to remember in the main algorithm is to compare the elements in nums1 and nums2 from right to left and place the larger element at the end of the merged array (nums1). This is done by using three pointers: p1 for nums1, p2 for nums2, and p for the overall merged array.","Given two integer arrays `nums1` and `nums2`, sorted in non-decreasing order, and two integers `m` and `n`, representing the number of elements in `nums1` and `nums2` respectively. The algorithm should merge `nums1` and `nums2` into a single array, sorted in non-decreasing order, and store the result in `nums1`."
+S) fb_int_prep,75_sort_colors.py,"The most important step of the main algorithm to remember is:
+ - Use three pointers - left, mid, and right, to keep track of the positions of red, white, and blue elements.
+ - Iterate through the array and perform the following operations:
+    - If the element at the mid pointer is 0 (red), swap it with the element at the left pointer and increment both left and mid pointers.
+    - If the element at the mid pointer is 1 (white), just increment the mid pointer.
+    - If the element at the mid pointer is 2 (blue), swap it with the element at the right pointer and decrement the right pointer.
+ - Continue this process until the mid pointer is greater than the right pointer.","The algorithm attempts to sort an array of objects colored red, white, and blue in-place, such that objects of the same color are adjacent and in the order of red, white, and blue."
+S) fb_int_prep,236. Lowest Common Ancestor of a Binary Tree.py,The most important step to remember is to recursively call the `find_LCA()` function on the left and right subtrees of the current node to search for the LCA of the given nodes.,"Given a binary tree, the algorithm aims to find the lowest common ancestor (LCA) of two given nodes in the tree. 
+
+The algorithm takes as input the root node of the tree and the values of the two nodes whose LCA we want to find. It uses recursion to traverse the tree and check if the current node is equal to either of the target nodes. If it finds one of the target nodes, it returns the current node as the LCA. If not, it recursively searches the left and right subtrees to find the LCA. If both the left and right subtrees return non-null values, then the current node is the LCA. Otherwise, the algorithm returns the non-null value found from either the left or right subtree (whichever is not null).
+
+The algorithm is tested using assertions on different test cases."
+S) fb_int_prep,215_klargest_elem.py,"The most important step to remember in the algorithm is:
+- Use a min-heap to keep track of the k largest elements.",The algorithm is attempting to solve the problem of finding the kth largest element in an integer array.
+S) fb_int_prep,523. Continuous Subarray Sum.py,"The most important step of the main algorithm to remember is the loop that calculates the prefix sum and uses a hashmap to store the modulus of the prefixes. This allows us to check if there is a subarray whose sum is a multiple of k. If a modulus is already present in the hashmap, it means we have found a subarray that satisfies the condition and we can return True.",The algorithm is attempting to find a continuous subarray within a given array of integers such that the sum of the elements in the subarray is divisible by a given target integer.
+S) fb_int_prep,1091. Shortest Path in Binary Matrix.py,"The most important step of the main algorithm to remember is:
+- Use a breadth-first search (BFS) approach to explore all possible paths in the matrix.
+- Start with the top-left cell and keep a queue of cells to visit next.
+- Mark visited cells as 1 to avoid revisiting them.
+- For each cell, check all adjacent cells in the eight directions and add them to the queue if they are valid moves (within the matrix and not visited).
+- Keep track of the length of the path from the start to the current cell.
+- If the queue becomes empty, there is no clear path and return -1.
+- If the bottom-right cell is reached, return the path length.","The algorithm attempts to find the shortest clear path in a binary matrix, from the top-left cell to the bottom-right cell, where all the visited cells are 0 and all adjacent cells are 8-directionally connected. If there is no clear path, it returns -1."
+S) fb_int_prep,78. Subsets.py,"The most important step of the main algorithm to remember is:
+
+- Iterate through each number in the input list `nums`.
+- For each number, iterate through each existing subset in `subsets`.
+- Create a new subset by copying the existing subset and appending the current number.
+- Append the new subset to `subsets`.
+
+This nested loop structure ensures that all possible subsets are generated by incrementally adding each number to the existing subsets.",The algorithm is attempting to find all possible subsets of an input list of numbers.
+S) fb_int_prep,162. Find Peak Element.py,The most important step of the main algorithm to remember is to use binary search to find the peak element. The algorithm constantly narrows down the search space by comparing the middle element with its neighboring elements.,"Given an array of integers, the algorithm is attempting to find a peak element, which is an element that is strictly greater than its neighbors. The algorithm must return the index of any peak element in the array."
+S) fb_int_prep,26_remove_duplicates_from_sorted_array.py,"The most important step of the main algorithm to remember is:
+
+- Iterate through the array using a pointer `i` starting from index 1. 
+- Check if the current element `nums[i]` is different from the previous element `nums[i-1]`.
+- If it is different, update the element at pointer `j` in the array `nums` to be the current element `nums[i]`.
+- Increment `j` by 1.
+- Return `j` as the number of unique elements.
+- Make sure to handle the edge case where the array is empty or has only one element.","Given an integer array `nums` sorted in non-decreasing order, the algorithm attempts to remove the duplicates in-place and return the number of unique elements in `nums`. The algorithm uses the `remove_dups` function to iterate through the array and remove duplicates by shifting non-duplicate elements towards the beginning of the array."
+S) fb_int_prep,339. nested weighted sum.py,The most important step of the main algorithm is the recursive function call to `wsum` when encountering a nested list.,"The algorithm is attempting to solve the problem of finding the sum of all integers in a nested list, weighted by their depth."
+S) fb_int_prep,102_Binary_Tree_Level_Order_Traversal.py,"The most important step of the main algorithm is:
+
+1. Perform a level order traversal of the binary tree using a queue. Keep track of the length of each level to process nodes at each level separately.",The algorithm is attempting to solve the problem of traversing a binary tree level by level and returning the nodes at each level as a list of lists.
+S) fb_int_prep,71. Simplify Path.py,"The most important step of the main algorithm is to split the input path string by ""/"" to get a list of directories.","Given a string `path` that represents an absolute path in a Unix-style file system, the algorithm aims to convert it to the simplified canonical path. The canonical path should have the following characteristics: it starts with a single slash ('/'), any two directories are separated by a single slash, it does not end with a trailing slash, and it only contains the directories on the path from the root directory to the target file or directory. The algorithm splits the `path` string by ""/"", iterates over each element, and builds the canonical path by pushing directories onto a stack and popping directories when encountering "".."". The result is the simplified canonical path."
+S) fb_int_prep,206_reverse_linked_list.py,"The most important step of the main algorithm to remember is:
+
+1. In the `reverse_ll` function, reverse the links between nodes by updating the `next` pointers of each node to point to the previous node. Keep track of the previous node and the current node to traverse the linked list.",The problem this algorithm is attempting to solve is to reverse a singly linked list.
+S) fb_int_prep,13_roman_to_int.py,"Most important steps to remember:
+
+1. Initialize the variable `out` to 0.
+2. Create a dictionary `mapp` with the values of each Roman numeral and the special cases where subtraction is used.
+3. Iterate over each character of the Roman numeral.
+4. If it is the first character, add its value to `out`.
+5. If the current character and the previous character form a valid Roman numeral combination, subtract the value of the previous character and add the value of the combination to `out`.
+6. If not, add the value of the current character to `out`.
+7. Return `out` as the final result.",This algorithm solves the problem of converting a Roman numeral to an integer.
+I) Two Heaps,1. Find the Median of a Number Stream (medium).py,"The most important step of the main algorithm to remember is how to maintain the two heaps (maxHeap and minHeap) such that they contain the first half and the second half of the numbers respectively. This is done by comparing the incoming number with the top element of the maxHeap and the minHeap, and pushing the number to the appropriate heap based on the comparison result. After inserting the number, we also need to rebalance the heaps if necessary.","The algorithm solves the problem of finding the median of a number stream. It maintains two heaps to store the numbers, ensuring that the max heap contains the smaller half of the numbers and the min heap contains the larger half. The algorithm has an insert_num() method to insert a number into the stream and a find_median() method to calculate and return the median."
+I) Two Heaps,practice.py,"The most important step to remember is the insertion of a number into the class. The algorithm compares the number with the heads of the max heap and min heap to determine where to insert it. If the count of numbers inserted in the class is even, the algorithm rebalances the heaps to ensure that the max heap contains one more element than the min heap.",The problem is asking to design a class that calculates the median of a number stream. The class should have methods to insert a number in the stream and find the median of all the numbers inserted so far.
+M) Top K,8. K closest numbers (medium).py,"The most important step in the main algorithm is:
+
+1) Creating a min heap and pushing tuples of (distance, number) into the heap, where the distance is the absolute difference between the number and X.
+
+2) For each of the K closest numbers, popping the top element from the min heap, which will be the closest number, and appending it to the result list.
+
+3) Returning the sorted result list.","Given a sorted number array, the algorithm aims to find the K closest numbers to a given integer X in the array. The result should be returned in sorted order."
+M) Top K,1. Top K numbers (easy).py,The most important step is to use a min heap to keep track of the K largest numbers.,The algorithm is attempting to find the K largest numbers in an unsorted array.
+M) Top K,practice.py,"The most important step to remember in the main algorithm is to use the `heappush` and `heappop` functions from the `heapq` library to maintain the heap property when inserting and removing elements from the heap. These functions ensure that the smallest or largest element, depending on the type of heap, is always at the root of the heap.","The algorithm is attempting to solve various problems related to finding the k largest or k smallest numbers, k most frequent numbers, and finding the closest elements to a given target number in an array."
+M) Top K,2. Kth Smallest Number (easy).py,"The most important step in the algorithm is to calculate the negative value of each element in the array and store it in the min_heap. This is done using the line of code `heappush(min_heap, MULT*nums[i])`.","Given an unsorted array of numbers, the algorithm aims to find the K-th smallest number in the array. It does this by using a min heap and comparing each number in the array with the smallest number in the heap. The algorithm has a time complexity of O(N log K), where N is the length of the array."
+M) Top K,6. Frequency Sort (medium).py,The most important step to remember in the main algorithm is to build a max heap using a dictionary to track the frequency of each letter in the input string. This is done using a loop to iterate over each letter in the input string and updating the count in the dictionary.,The algorithm takes a string as input and sorts it based on the decreasing frequency of its characters.
+M) Top K,10 Sum of Elements (medium).py,"The most important steps to remember are:
+1. Insert all numbers into the min_heap.
+2. Remove k1 numbers from the heap.
+3. Sum the numbers from k1 to k2 (inclusive).","Given an array of numbers and two integers `k1` and `k2`, the algorithm finds the sum of the numbers between the `k1`-th smallest number and the `k2`-th smallest number in the array. The algorithm uses a min heap to find the smallest `k1` numbers, removes them from the heap, and then returns the sum of the numbers between the `k1`-th and `k2`-th smallest numbers in the remaining heap. The time complexity of the algorithm is O(N log K + K log K), where N is the length of the input array and K is the maximum between `k1` and `k2`."
+M) Top K,5. Frequent Numbers (medium).py,"The most important step of the main algorithm to remember is:
+
+1. Using a heap to store the top K frequent numbers.","Given an unsorted array of numbers, the algorithm finds the top K frequently occurring numbers in it. It uses a map counter to count the occurrences of each number and a min heap to keep track of the top K counts. The algorithm has a time complexity of O(N log K), where N is the number of elements in the input array."
+M) Top K,7. Kth Largest Number in a Stream.py,"The most important step in the algorithm is to maintain a min heap with a size of K. Every time we add a new number, we push it into the min heap. If the size of the min heap exceeds K, we remove the smallest element from the min heap. This ensures that the min heap always contains the K largest elements from the stream.","This algorithm aims to design a class that efficiently finds the Kth largest element in a stream of numbers. The class constructor takes an integer array and an integer K as inputs, and the class exposes a function add(int num) that stores the given number and returns the Kth largest number."
+M) Top K,9. Max Distinct Elements (medium).py,The most important step is to iterate over the list and create a frequency map of each number.,"Given an array of numbers and a number K, the algorithm aims to remove K numbers from the array in order to obtain the maximum number of distinct numbers. The algorithm uses a min-heap to keep track of the frequency of each number, and then removes the least frequent numbers while ensuring that the number of removals remains within the specified limit."
+M) Top K,4. Connect Ropes (easy).py,"The most important step of the main algorithm to remember is the process of connecting the ropes in the while loop. The two ropes with the smallest lengths are popped from the heap, their lengths are summed, and the sum is added to the result. The sum is then pushed back into the heap. This process continues until there is only one rope left in the heap.","The algorithm is attempting to solve the problem of finding the minimum cost to connect a given set of ropes into one big rope by combining two ropes at a time with the lowest lengths first, until all ropes are connected."
+M) Top K,3. Kth closest point to origin (easy).py,"The most important step of the main algorithm to remember is the calculation of the Euclidean distance between each point and the origin. It is calculated using the formula sqrt((x - 0)^2 + (y - 0)^2), where (x, y) represents the coordinates of each point. This distance is then used to determine the closest points to the origin.","Given an array of points in a 2D plane, the algorithm aims to find the K closest points to the origin. It calculates the Euclidean distance between each point and the origin, and returns the K points with the smallest distances."
