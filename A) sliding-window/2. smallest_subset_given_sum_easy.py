@@ -30,7 +30,6 @@ def main(l,s):
       window_start = window_start + 1 #increment start up
   return smallest_sub_array #return smallest
 
-
 assert main([2, 1, 5, 2, 3, 2],7) == 2
 assert main([2, 1, 5, 2, 8], 7) == 1
 assert main([3, 4, 1, 1, 6], 8) == 3

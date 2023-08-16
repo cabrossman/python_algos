@@ -1,16 +1,14 @@
 ### Framework
 1. Write out problem they state
-    - list for clues! 
-    - sorteed? dups? length? requirents on space or time complex? 
+    - Questions: sorteed? dups? length? requirents on space or time complex? 
     - Balanced Tree? Binary Tree or Binary Search Tree
-    - what if no match?
+    - Edge cases: no match, empty array
 2. Write Assert tests
     - Get inputs and outputs
-    - Assumptions - try to break it
-    - Edge cases - try to break it more
-    - Common : Duplicates, sorted, empty array, domain of problem
 3. Psuedocode / Brainstorm
-    - high level solutions ideas - consider brute force
+    - high level solutions ideas
+    - - brute force
+    - - other ideas
     - big O notation - space and time
     - - time is more val than space. 
     - if stuck poke interviewer for help

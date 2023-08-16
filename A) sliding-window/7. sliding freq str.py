@@ -10,8 +10,7 @@ def compare_dicts(dict1, dict2):
 
 def min_window(s, t):
     left = 0
-    freq = {}
-    t_freq = {}
+    freq, t_freq = {}, {}
     for ch in t:
         t_freq[ch] = t_freq.get(ch,0) + 1
     min_substr = s

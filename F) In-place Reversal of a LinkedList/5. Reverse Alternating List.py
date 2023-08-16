@@ -14,17 +14,17 @@ def reorder_list(head):
     if not head:
         return head
     
-    curr = fast = head
+    curr = fast = head #get to middle of list
     while fast and fast.next:
         curr = curr.next
         fast = fast.next.next 
     
-    prev = None
+    prev = None #reverse second half of list
     while curr:
         curr.next, prev, curr = prev, curr, curr.next 
 
-    first, second = head, prev
-    while second.next:
+    first, second = head, prev #head = start of list, prev = end of list
+    while second.next: #while end of list has next value
         first.next, first = second, first.next
         second.next, second = first, second.next
     

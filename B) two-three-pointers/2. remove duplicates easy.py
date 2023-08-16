@@ -15,12 +15,11 @@ Explanation: The first two elements after removing the duplicates will be [2, 11
 def main(nums):
     j = 1
     for i in range(1, len(nums)):
-        not_dup = nums[i] != nums[i-1]
-        if not_dup:
+        duplicate = nums[i] == nums[i-1]
+        if not duplicate:
             nums[j] = nums[i]
             j += 1
     return j
-
 
 assert main([2, 3, 3, 3, 6, 9, 9]) == 4
 assert main([2, 2, 2, 11]) == 2

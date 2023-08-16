@@ -10,23 +10,20 @@ Output: [0, 1, 1, 4, 9]
 
 """
 
-
 def main(l):
-  left = 0
-  right = len(l) - 1
-  nl = [0 for i in range(len(l))]
-  nl_index = right
+  left, right = 0, len(l) - 1
+  sqrd = [n**2 for n in l]
+  p_write = right
   while left < right:
-    if abs(l[right]) >= abs(l[left]):
-      nl[nl_index] = l[right]**2
-      right = right - 1
-      nl_index = nl_index - 1
+    if sqrd[left] > sqrd[right]:
+      l[p_write] = sqrd[left]
+      left += 1
     else:
-      nl[nl_index] = l[left]**2
-      left = left + 1
-      nl_index = nl_index - 1
-  return nl
-
+      l[p_write] = sqrd[right]
+      right -=1
+    p_write -=1
+  l[p_write] = sqrd[left]
+  return l
 
 assert main([-2, -1, 0, 2, 3]) == [0, 1, 4, 4, 9]
 assert main([-3, -1, 0, 1, 2]) == [0, 1, 1, 4, 9]

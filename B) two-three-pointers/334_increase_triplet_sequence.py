@@ -1,20 +1,22 @@
-def has_triplets(arr):
-    if len(arr) < 3:
+
+def has_triplets(nums):
+    """
+    has to be in order so we take advantage of that here
+    first = smallest num seen in past
+    second => a current number greater than first
+    found => x > second > first
+    
+    """
+    if len(nums) < 3:
         return False
-    for mid, midV in enumerate(arr):
-        if mid == 0:
-            continue
-        left, leftV = mid - 1, arr[mid - 1]
-        right, rightV = len(arr) - 1, arr[len(arr) - 1]
-        while mid < right:
-            if leftV < midV and midV < rightV:
-                return True
-            if leftV > rightV: #it will never work so pull in
-                right -= 1
-                rightV = arr[right]
-            else:
-                mid += 1
-                midV = arr[mid]
+    first, second = float('inf'), float('inf')
+    for n in nums: # case on which smaller. increasing.
+        if n <= first:
+            first = n
+        elif n <= second:# first < (n <= second) < third
+            second = n
+        else:  # first < second < third
+            return True
     return False
 
 assert has_triplets([1, 2, 3, 4, 5]) == True

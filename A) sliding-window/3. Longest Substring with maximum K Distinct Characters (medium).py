@@ -34,7 +34,6 @@ def main(s, k):
         max_length = max(max_length, end - start + 1)
     return max_length
 
-
 assert main('araaci',2) == 4
 assert main('araaci', 1) == 2
 assert main('cbbebi', 3) == 5

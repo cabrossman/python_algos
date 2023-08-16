@@ -20,8 +20,20 @@ Output: true
 Explanation: After applying backspaces the strings become "xywrrmp" and "xywrrmp" respectively.
 """
 def backspace_compare(str1, str2):
-  #solve with stack - love chris
-  return True
+  s1, s2 = [], []
+  for i in range(len(str1)):
+    if s1 and str1[i] == '#':
+      s1.pop()
+    else:
+      s1.append(str1[i])
+
+  for i in range(len(str2)):
+    if s2 and str2[i] == '#':
+      s2.pop()
+    else:
+      s2.append(str2[i])
+
+  return set(s1) == set(s2)
 
 assert backspace_compare(str1="xy#z", str2="xzz#") == True
 assert backspace_compare(str1="xy#z", str2="xyz#") == False
